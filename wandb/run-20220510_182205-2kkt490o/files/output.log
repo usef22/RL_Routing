@@ -1,0 +1,2116 @@
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x0000028D73532BA8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x0000028D73532BA8>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D73532E48>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D73532E48>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D73532908>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D73532908>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D73532908>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D73532908>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D73532BA8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D73532BA8>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D73532F98>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D73532F98>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D73532A90>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D73532A90>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x0000028D781D85F8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x0000028D781D85F8>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D781D8630>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D781D8630>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D781D87F0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D781D87F0>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D781D8DD8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D781D8DD8>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D781D8668>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D781D8668>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D674DA9B0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D674DA9B0>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D75EDCF28>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D75EDCF28>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x0000028D781D8048>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x0000028D781D8048>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D781DB358>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D781DB358>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D781DB358>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D781DB358>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D674DABE0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D674DABE0>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D781E0D30>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D781E0D30>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D781E0D68>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D781E0D68>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D781E0D68>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D781E0D68>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x0000028D781D8358>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x0000028D781D8358>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D768C7DA0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D768C7DA0>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D768C7DD8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D768C7DD8>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D768C7DD8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D768C7DD8>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D768C7EF0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D768C7EF0>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D768C7F60>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D768C7F60>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D781DB9B0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x0000028D781DB9B0>>: AttributeError: module 'gast' has no attribute 'Index'
+___________________________________________________________________________________________________
+{'Destination': 1, 'BW_Block': 4}
+___________________________________________________________________________________________________
+>>>>>>>>>>>>>>>>>>>>>> 9
+7
+[[2070 1607 1013 2529 1793  800  587]
+ [2231 1565 1392 2300 2937 2516 1974]
+ [1750 1201 1473 2535 3095 2391 4086]
+ [2126  790 1108 1931 1612 1003 4398]
+ [1939  536  670 1118 1283  822 3921]
+ [2966 1512 1704 1811 1939 1667 4611]
+ [3700 2665 2503 3366 2387 1378 2548]]
+513.0
+513.0
+332.0
+332.0
+Saving new best model to results\NovelGridworld-v0\NovelGridworld-v0_300000_CUMULATIVE_50_200_best_model
+392.0
+392.0
+331.5
+303.0
+Saving new best model to results\NovelGridworld-v0\NovelGridworld-v0_300000_CUMULATIVE_50_200_best_model
+759.0
+759.0
+372.25
+311.0
+83.0
+83.0
+260.8666666666667
+113.0
+Saving new best model to results\NovelGridworld-v0\NovelGridworld-v0_300000_CUMULATIVE_50_200_best_model
+41.0
+41.0
+223.23809523809524
+81.0
+Saving new best model to results\NovelGridworld-v0\NovelGridworld-v0_300000_CUMULATIVE_50_200_best_model
+95.0
+95.0
+184.125
+87.0
+Saving new best model to results\NovelGridworld-v0\NovelGridworld-v0_300000_CUMULATIVE_50_200_best_model
+156.0
+156.0
+173.6
+77.0
+Saving new best model to results\NovelGridworld-v0\NovelGridworld-v0_300000_CUMULATIVE_50_200_best_model
+12.0
+12.0
+155.7450980392157
+72.0
+Saving new best model to results\NovelGridworld-v0\NovelGridworld-v0_300000_CUMULATIVE_50_200_best_model
+27.0
+27.0
+152.0677966101695
+81.0
+Saving new best model to results\NovelGridworld-v0\NovelGridworld-v0_300000_CUMULATIVE_50_200_best_model
+38.0
+38.0
+142.5072463768116
+85.0
+Saving new best model to results\NovelGridworld-v0\NovelGridworld-v0_300000_CUMULATIVE_50_200_best_model
+61.0
+61.0
+133.0609756097561
+47.5
+Saving new best model to results\NovelGridworld-v0\NovelGridworld-v0_300000_CUMULATIVE_50_200_best_model
+201.0
+201.0
+130.4835164835165
+69.5
+Saving new best model to results\NovelGridworld-v0\NovelGridworld-v0_300000_CUMULATIVE_50_200_best_model
+137.0
+137.0
+133.82474226804123
+107.5
+--------------------------------------
+| % time spent exploring  | 57       |
+| episodes                | 100      |
+| mean 100 episode reward | -191     |
+| steps                   | 13139    |
+--------------------------------------
+17.0
+17.0
+97.55
+31.5
+Saving new best model to results\NovelGridworld-v0\NovelGridworld-v0_300000_CUMULATIVE_50_200_best_model
+72.0
+72.0
+85.77
+36.5
+Saving new best model to results\NovelGridworld-v0\NovelGridworld-v0_300000_CUMULATIVE_50_200_best_model
+117.0
+117.0
+79.3
+49.5
+Saving new best model to results\NovelGridworld-v0\NovelGridworld-v0_300000_CUMULATIVE_50_200_best_model
+17.0
+17.0
+61.7
+26.5
+Saving new best model to results\NovelGridworld-v0\NovelGridworld-v0_300000_CUMULATIVE_50_200_best_model
+--------------------------------------
+| % time spent exploring  | 41       |
+| episodes                | 200      |
+| mean 100 episode reward | 142      |
+| steps                   | 17993    |
+--------------------------------------
+110.0
+110.0
+48.54
+48.0
+Saving new best model to results\NovelGridworld-v0\NovelGridworld-v0_300000_CUMULATIVE_50_200_best_model
+15.0
+15.0
+42.24
+15.0
+Saving new best model to results\NovelGridworld-v0\NovelGridworld-v0_300000_CUMULATIVE_50_200_best_model
+22.0
+22.0
+35.09
+22.5
+Saving new best model to results\NovelGridworld-v0\NovelGridworld-v0_300000_CUMULATIVE_50_200_best_model
+18.0
+18.0
+32.67
+18.5
+Saving new best model to results\NovelGridworld-v0\NovelGridworld-v0_300000_CUMULATIVE_50_200_best_model
+--------------------------------------
+| % time spent exploring  | 30       |
+| episodes                | 300      |
+| mean 100 episode reward | 200      |
+| steps                   | 21128    |
+--------------------------------------
+17.0
+17.0
+27.7
+19.0
+Saving new best model to results\NovelGridworld-v0\NovelGridworld-v0_300000_CUMULATIVE_50_200_best_model
+25.0
+25.0
+30.62
+26.0
+19.0
+19.0
+32.08
+21.0
+--------------------------------------
+| % time spent exploring  | 20       |
+| episodes                | 400      |
+| mean 100 episode reward | 178      |
+| steps                   | 24465    |
+--------------------------------------
+32.0
+32.0
+34.26
+24.0
+12.0
+12.0
+41.08
+22.0
+35.0
+35.0
+38.67
+24.0
+--------------------------------------
+| % time spent exploring  | 8        |
+| episodes                | 500      |
+| mean 100 episode reward | 178      |
+| steps                   | 27938    |
+--------------------------------------
+19.0
+19.0
+34.53
+17.5
+17.0
+17.0
+28.28
+13.5
+Saving new best model to results\NovelGridworld-v0\NovelGridworld-v0_300000_CUMULATIVE_50_200_best_model
+17.0
+17.0
+28.28
+13.5
+10.0
+10.0
+44.82
+10.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 600      |
+| mean 100 episode reward | 126      |
+| steps                   | 31927    |
+--------------------------------------
+33.0
+33.0
+40.02
+30.0
+15.0
+15.0
+15.18
+10.5
+Saving new best model to results\NovelGridworld-v0\NovelGridworld-v0_300000_CUMULATIVE_50_200_best_model
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 700      |
+| mean 100 episode reward | 248      |
+| steps                   | 33609    |
+--------------------------------------
+11.0
+11.0
+16.37
+12.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 800      |
+| mean 100 episode reward | 264      |
+| steps                   | 34898    |
+--------------------------------------
+9.0
+9.0
+12.76
+10.0
+Saving new best model to results\NovelGridworld-v0\NovelGridworld-v0_300000_CUMULATIVE_50_200_best_model
+11.0
+11.0
+13.25
+11.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 900      |
+| mean 100 episode reward | 261      |
+| steps                   | 36195    |
+--------------------------------------
+15.0
+15.0
+12.16
+13.0
+Saving new best model to results\NovelGridworld-v0\NovelGridworld-v0_300000_CUMULATIVE_50_200_best_model
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 1000     |
+| mean 100 episode reward | 260      |
+| steps                   | 37711    |
+--------------------------------------
+11.0
+11.0
+14.91
+10.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 1100     |
+| mean 100 episode reward | 261      |
+| steps                   | 38822    |
+--------------------------------------
+10.0
+10.0
+10.82
+10.0
+11.0
+11.0
+12.61
+11.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 1200     |
+| mean 100 episode reward | 253      |
+| steps                   | 40076    |
+--------------------------------------
+9.0
+9.0
+13.04
+10.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 1300     |
+| mean 100 episode reward | 254      |
+| steps                   | 41241    |
+--------------------------------------
+11.0
+11.0
+10.34
+10.0
+9.0
+9.0
+20.22
+10.0
+10.0
+10.0
+23.49
+10.0
+17.0
+17.0
+36.88
+15.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 1400     |
+| mean 100 episode reward | 160      |
+| steps                   | 45377    |
+--------------------------------------
+10.0
+10.0
+46.16
+14.0
+10.0
+10.0
+52.84
+50.5
+39.0
+39.0
+31.58
+41.5
+146.0
+146.0
+40.54
+113.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 1500     |
+| mean 100 episode reward | 170      |
+| steps                   | 49568    |
+--------------------------------------
+217.0
+217.0
+43.94
+152.0
+9.0
+9.0
+43.84
+14.5
+38.0
+38.0
+50.6
+25.5
+12.0
+12.0
+54.66
+10.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 1600     |
+| mean 100 episode reward | 177      |
+| steps                   | 53264    |
+--------------------------------------
+225.0
+225.0
+30.68
+12.5
+11.0
+11.0
+27.93
+10.5
+10.0
+10.0
+26.87
+13.0
+277.0
+277.0
+29.55
+13.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 1700     |
+| mean 100 episode reward | 146      |
+| steps                   | 57837    |
+--------------------------------------
+9.0
+9.0
+45.73
+12.0
+10.0
+10.0
+40.24
+13.5
+10.0
+10.0
+40.83
+11.0
+9.0
+9.0
+31.96
+12.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 1800     |
+| mean 100 episode reward | 192      |
+| steps                   | 61035    |
+--------------------------------------
+11.0
+11.0
+15.35
+11.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 1900     |
+| mean 100 episode reward | 258      |
+| steps                   | 62532    |
+--------------------------------------
+9.0
+9.0
+14.27
+10.0
+14.0
+14.0
+14.72
+11.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 2000     |
+| mean 100 episode reward | 261      |
+| steps                   | 64002    |
+--------------------------------------
+22.0
+22.0
+12.18
+10.5
+Saving new best model to results\NovelGridworld-v0\NovelGridworld-v0_300000_CUMULATIVE_50_200_best_model
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 2100     |
+| mean 100 episode reward | 269      |
+| steps                   | 65228    |
+--------------------------------------
+11.0
+11.0
+12.04
+9.5
+14.0
+14.0
+15.73
+14.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 2200     |
+| mean 100 episode reward | 223      |
+| steps                   | 67471    |
+--------------------------------------
+10.0
+10.0
+22.36
+13.0
+56.0
+56.0
+27.99
+13.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 2300     |
+| mean 100 episode reward | 235      |
+| steps                   | 69636    |
+--------------------------------------
+16.0
+16.0
+17.58
+13.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 2400     |
+| mean 100 episode reward | 272      |
+| steps                   | 70843    |
+--------------------------------------
+14.0
+14.0
+11.96
+10.0
+Saving new best model to results\NovelGridworld-v0\NovelGridworld-v0_300000_CUMULATIVE_50_200_best_model
+17.0
+17.0
+11.96
+11.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 2500     |
+| mean 100 episode reward | 270      |
+| steps                   | 72040    |
+--------------------------------------
+11.0
+11.0
+16.37
+11.5
+27.0
+27.0
+17.31
+10.5
+27.0
+27.0
+17.31
+10.5
+27.0
+27.0
+17.31
+10.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 2600     |
+| mean 100 episode reward | 169      |
+| steps                   | 76036    |
+--------------------------------------
+13.0
+13.0
+35.67
+10.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 2700     |
+| mean 100 episode reward | 267      |
+| steps                   | 77259    |
+--------------------------------------
+13.0
+13.0
+11.63
+12.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 2800     |
+| mean 100 episode reward | 270      |
+| steps                   | 78436    |
+--------------------------------------
+10.0
+10.0
+11.86
+12.0
+Saving new best model to results\NovelGridworld-v0\NovelGridworld-v0_300000_CUMULATIVE_50_200_best_model
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 2900     |
+| mean 100 episode reward | 273      |
+| steps                   | 79665    |
+--------------------------------------
+13.0
+13.0
+12.27
+13.0
+Saving new best model to results\NovelGridworld-v0\NovelGridworld-v0_300000_CUMULATIVE_50_200_best_model
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 3000     |
+| mean 100 episode reward | 272      |
+| steps                   | 80833    |
+--------------------------------------
+9.0
+9.0
+11.61
+10.0
+11.0
+11.0
+12.21
+14.0
+Saving new best model to results\NovelGridworld-v0\NovelGridworld-v0_300000_CUMULATIVE_50_200_best_model
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 3100     |
+| mean 100 episode reward | 260      |
+| steps                   | 82468    |
+--------------------------------------
+11.0
+11.0
+16.74
+11.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 3200     |
+| mean 100 episode reward | 263      |
+| steps                   | 83715    |
+--------------------------------------
+14.0
+14.0
+12.25
+11.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 3300     |
+| mean 100 episode reward | 268      |
+| steps                   | 84944    |
+--------------------------------------
+11.0
+11.0
+12.28
+11.0
+175.0
+175.0
+13.87
+11.0
+11.0
+11.0
+22.87
+10.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 3400     |
+| mean 100 episode reward | 239      |
+| steps                   | 87211    |
+--------------------------------------
+10.0
+10.0
+11.6
+11.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 3500     |
+| mean 100 episode reward | 255      |
+| steps                   | 88721    |
+--------------------------------------
+14.0
+14.0
+15.27
+11.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 3600     |
+| mean 100 episode reward | 269      |
+| steps                   | 89912    |
+--------------------------------------
+9.0
+9.0
+11.93
+14.0
+15.0
+15.0
+12.03
+11.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 3700     |
+| mean 100 episode reward | 270      |
+| steps                   | 91125    |
+--------------------------------------
+11.0
+11.0
+14.27
+15.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 3800     |
+| mean 100 episode reward | 258      |
+| steps                   | 92673    |
+--------------------------------------
+17.0
+17.0
+15.55
+15.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 3900     |
+| mean 100 episode reward | 258      |
+| steps                   | 93992    |
+--------------------------------------
+16.0
+16.0
+13.19
+10.0
+10.0
+10.0
+12.71
+10.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 4000     |
+| mean 100 episode reward | 269      |
+| steps                   | 95236    |
+--------------------------------------
+15.0
+15.0
+12.08
+10.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 4100     |
+| mean 100 episode reward | 266      |
+| steps                   | 96501    |
+--------------------------------------
+14.0
+14.0
+12.86
+14.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 4200     |
+| mean 100 episode reward | 258      |
+| steps                   | 97969    |
+--------------------------------------
+16.0
+16.0
+14.71
+10.5
+9.0
+9.0
+12.72
+10.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 4300     |
+| mean 100 episode reward | 265      |
+| steps                   | 99269    |
+--------------------------------------
+19.0
+19.0
+13.6
+11.0
+10.0
+10.0
+20.9
+37.0
+280.0
+280.0
+28.83
+26.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 4400     |
+| mean 100 episode reward | 176      |
+| steps                   | 102961   |
+--------------------------------------
+17.0
+17.0
+36.94
+14.5
+16.0
+16.0
+45.47
+22.0
+19.0
+19.0
+50.44
+15.5
+11.0
+11.0
+49.53
+10.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 4500     |
+| mean 100 episode reward | 183      |
+| steps                   | 106511   |
+--------------------------------------
+9.0
+9.0
+13.3
+10.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 4600     |
+| mean 100 episode reward | 269      |
+| steps                   | 107712   |
+--------------------------------------
+9.0
+9.0
+12.32
+15.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 4700     |
+| mean 100 episode reward | 274      |
+| steps                   | 108936   |
+--------------------------------------
+16.0
+16.0
+12.22
+10.0
+10.0
+10.0
+11.9
+12.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 4800     |
+| mean 100 episode reward | 272      |
+| steps                   | 110128   |
+--------------------------------------
+10.0
+10.0
+12.87
+12.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 4900     |
+| mean 100 episode reward | 253      |
+| steps                   | 111598   |
+--------------------------------------
+11.0
+11.0
+13.22
+10.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 5000     |
+| mean 100 episode reward | 256      |
+| steps                   | 112899   |
+--------------------------------------
+10.0
+10.0
+12.97
+10.5
+11.0
+11.0
+13.17
+12.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 5100     |
+| mean 100 episode reward | 268      |
+| steps                   | 114237   |
+--------------------------------------
+13.0
+13.0
+12.91
+10.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 5200     |
+| mean 100 episode reward | 268      |
+| steps                   | 115384   |
+--------------------------------------
+13.0
+13.0
+13.8
+10.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 5300     |
+| mean 100 episode reward | 263      |
+| steps                   | 116811   |
+--------------------------------------
+13.0
+13.0
+14.08
+11.5
+10.0
+10.0
+12.52
+13.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 5400     |
+| mean 100 episode reward | 276      |
+| steps                   | 118049   |
+--------------------------------------
+10.0
+10.0
+11.91
+10.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 5500     |
+| mean 100 episode reward | 270      |
+| steps                   | 119220   |
+--------------------------------------
+381.0
+381.0
+14.86
+10.0
+14.0
+14.0
+19.45
+11.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 5600     |
+| mean 100 episode reward | 232      |
+| steps                   | 121168   |
+--------------------------------------
+9.0
+9.0
+19.48
+10.0
+10.0
+10.0
+22.58
+10.0
+17.0
+17.0
+29.83
+13.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 5700     |
+| mean 100 episode reward | 190      |
+| steps                   | 124286   |
+--------------------------------------
+9.0
+9.0
+30.23
+10.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 5800     |
+| mean 100 episode reward | 261      |
+| steps                   | 125865   |
+--------------------------------------
+13.0
+13.0
+15.3
+10.0
+9.0
+9.0
+14.97
+10.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 5900     |
+| mean 100 episode reward | 232      |
+| steps                   | 127827   |
+--------------------------------------
+10.0
+10.0
+17.32
+11.0
+10.0
+10.0
+12.92
+10.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 6000     |
+| mean 100 episode reward | 241      |
+| steps                   | 129231   |
+--------------------------------------
+10.0
+10.0
+13.86
+10.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 6100     |
+| mean 100 episode reward | 234      |
+| steps                   | 130640   |
+--------------------------------------
+10.0
+10.0
+13.8
+10.0
+187.0
+187.0
+16.01
+10.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 6200     |
+| mean 100 episode reward | 198      |
+| steps                   | 132856   |
+--------------------------------------
+13.0
+13.0
+22.4
+11.5
+10.0
+10.0
+25.36
+11.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 6300     |
+| mean 100 episode reward | 236      |
+| steps                   | 134577   |
+--------------------------------------
+10.0
+10.0
+16.85
+10.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 6400     |
+| mean 100 episode reward | 245      |
+| steps                   | 135870   |
+--------------------------------------
+10.0
+10.0
+12.63
+10.0
+9.0
+9.0
+12.62
+10.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 6500     |
+| mean 100 episode reward | 243      |
+| steps                   | 137173   |
+--------------------------------------
+14.0
+14.0
+13.86
+12.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 6600     |
+| mean 100 episode reward | 238      |
+| steps                   | 138645   |
+--------------------------------------
+30.0
+30.0
+14.32
+11.5
+11.0
+11.0
+14.15
+12.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 6700     |
+| mean 100 episode reward | 244      |
+| steps                   | 140094   |
+--------------------------------------
+11.0
+11.0
+16.41
+11.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 6800     |
+| mean 100 episode reward | 236      |
+| steps                   | 141567   |
+--------------------------------------
+11.0
+11.0
+15.11
+12.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 6900     |
+| mean 100 episode reward | 252      |
+| steps                   | 142963   |
+--------------------------------------
+12.0
+12.0
+13.97
+14.0
+21.0
+21.0
+16.92
+14.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 7000     |
+| mean 100 episode reward | 236      |
+| steps                   | 144697   |
+--------------------------------------
+10.0
+10.0
+15.49
+12.5
+13.0
+13.0
+15.81
+12.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 7100     |
+| mean 100 episode reward | 241      |
+| steps                   | 146574   |
+--------------------------------------
+23.0
+23.0
+18.46
+23.0
+29.0
+29.0
+22.07
+25.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 7200     |
+| mean 100 episode reward | 246      |
+| steps                   | 148644   |
+--------------------------------------
+15.0
+15.0
+20.83
+17.5
+24.0
+24.0
+20.44
+19.5
+23.0
+23.0
+26.85
+25.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 7300     |
+| mean 100 episode reward | 219      |
+| steps                   | 151493   |
+--------------------------------------
+14.0
+14.0
+27.79
+14.5
+14.0
+14.0
+26.56
+14.5
+25.0
+25.0
+28.54
+26.0
+122.0
+122.0
+37.32
+73.5
+20.0
+20.0
+43.37
+26.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 7400     |
+| mean 100 episode reward | 130      |
+| steps                   | 156532   |
+--------------------------------------
+119.0
+119.0
+53.5
+120.0
+192.0
+192.0
+62.38
+144.0
+72.0
+72.0
+68.37
+136.5
+13.0
+13.0
+75.66
+14.0
+13.0
+13.0
+83.68
+13.0
+10.0
+10.0
+95.83
+12.0
+101.0
+101.0
+107.02
+46.0
+14.0
+14.0
+78.4
+11.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 7500     |
+| mean 100 episode reward | 29.3     |
+| steps                   | 164002   |
+--------------------------------------
+10.0
+10.0
+15.84
+10.5
+10.0
+10.0
+27.46
+10.5
+10.0
+10.0
+29.93
+12.0
+10.0
+10.0
+29.93
+12.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 7600     |
+| mean 100 episode reward | 133      |
+| steps                   | 168177   |
+--------------------------------------
+21.0
+21.0
+30.69
+13.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 7700     |
+| mean 100 episode reward | 232      |
+| steps                   | 169913   |
+--------------------------------------
+10.0
+10.0
+17.12
+11.0
+18.0
+18.0
+15.86
+10.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 7800     |
+| mean 100 episode reward | 248      |
+| steps                   | 171645   |
+--------------------------------------
+20.0
+20.0
+18.55
+23.5
+26.0
+26.0
+20.22
+10.5
+16.0
+16.0
+26.95
+13.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 7900     |
+| mean 100 episode reward | 232      |
+| steps                   | 174296   |
+--------------------------------------
+11.0
+11.0
+25.76
+12.5
+10.0
+10.0
+31.04
+10.5
+9.0
+9.0
+26.4
+13.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 8000     |
+| mean 100 episode reward | 195      |
+| steps                   | 177504   |
+--------------------------------------
+16.0
+16.0
+31.88
+12.0
+337.0
+337.0
+42.92
+13.5
+347.0
+347.0
+44.99
+15.0
+26.0
+26.0
+44.0
+10.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 8100     |
+| mean 100 episode reward | 172      |
+| steps                   | 181244   |
+--------------------------------------
+9.0
+9.0
+15.18
+11.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 8200     |
+| mean 100 episode reward | 250      |
+| steps                   | 182678   |
+--------------------------------------
+9.0
+9.0
+14.89
+11.0
+14.0
+14.0
+13.7
+10.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 8300     |
+| mean 100 episode reward | 244      |
+| steps                   | 184111   |
+--------------------------------------
+14.0
+14.0
+19.61
+17.0
+19.0
+19.0
+24.29
+18.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 8400     |
+| mean 100 episode reward | 220      |
+| steps                   | 186628   |
+--------------------------------------
+14.0
+14.0
+19.35
+10.0
+11.0
+11.0
+19.58
+17.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 8500     |
+| mean 100 episode reward | 240      |
+| steps                   | 188417   |
+--------------------------------------
+9.0
+9.0
+19.47
+10.0
+28.0
+28.0
+17.96
+18.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 8600     |
+| mean 100 episode reward | 231      |
+| steps                   | 190255   |
+--------------------------------------
+114.0
+114.0
+19.95
+12.0
+10.0
+10.0
+25.18
+15.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 8700     |
+| mean 100 episode reward | 222      |
+| steps                   | 192645   |
+--------------------------------------
+10.0
+10.0
+21.85
+11.5
+18.0
+18.0
+13.88
+14.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 8800     |
+| mean 100 episode reward | 256      |
+| steps                   | 194060   |
+--------------------------------------
+18.0
+18.0
+16.25
+18.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 8900     |
+| mean 100 episode reward | 262      |
+| steps                   | 195824   |
+--------------------------------------
+13.0
+13.0
+17.74
+13.0
+19.0
+19.0
+18.4
+18.5
+10.0
+10.0
+21.65
+11.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 9000     |
+| mean 100 episode reward | 229      |
+| steps                   | 198032   |
+--------------------------------------
+15.0
+15.0
+20.07
+17.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 9100     |
+| mean 100 episode reward | 248      |
+| steps                   | 199656   |
+--------------------------------------
+13.0
+13.0
+19.11
+16.0
+10.0
+10.0
+17.38
+13.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 9200     |
+| mean 100 episode reward | 235      |
+| steps                   | 201305   |
+--------------------------------------
+12.0
+12.0
+15.75
+13.0
+10.0
+10.0
+18.85
+10.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 9300     |
+| mean 100 episode reward | 236      |
+| steps                   | 203351   |
+--------------------------------------
+23.0
+23.0
+23.5
+20.0
+96.0
+96.0
+23.05
+18.0
+12.0
+12.0
+29.13
+12.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 9400     |
+| mean 100 episode reward | 211      |
+| steps                   | 206130   |
+--------------------------------------
+14.0
+14.0
+15.12
+14.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 9500     |
+| mean 100 episode reward | 251      |
+| steps                   | 207420   |
+--------------------------------------
+12.0
+12.0
+13.13
+12.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 9600     |
+| mean 100 episode reward | 247      |
+| steps                   | 208810   |
+--------------------------------------
+14.0
+14.0
+14.22
+15.5
+12.0
+12.0
+13.74
+13.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 9700     |
+| mean 100 episode reward | 245      |
+| steps                   | 210180   |
+--------------------------------------
+18.0
+18.0
+14.55
+17.5
+184.0
+184.0
+20.87
+20.5
+24.0
+24.0
+25.6
+30.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 9800     |
+| mean 100 episode reward | 184      |
+| steps                   | 213404   |
+--------------------------------------
+20.0
+20.0
+35.09
+37.0
+27.0
+27.0
+44.41
+13.0
+15.0
+15.0
+34.95
+12.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 9900     |
+| mean 100 episode reward | 203      |
+| steps                   | 216105   |
+--------------------------------------
+14.0
+14.0
+14.39
+14.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 10000    |
+| mean 100 episode reward | 253      |
+| steps                   | 217627   |
+--------------------------------------
+10.0
+10.0
+15.61
+12.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 10100    |
+| mean 100 episode reward | 251      |
+| steps                   | 218913   |
+--------------------------------------
+13.0
+13.0
+13.2
+13.0
+10.0
+10.0
+16.77
+11.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 10200    |
+| mean 100 episode reward | 237      |
+| steps                   | 220714   |
+--------------------------------------
+10.0
+10.0
+14.15
+12.5
+10.0
+10.0
+13.71
+12.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 10300    |
+| mean 100 episode reward | 245      |
+| steps                   | 222081   |
+--------------------------------------
+12.0
+12.0
+13.64
+12.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 10400    |
+| mean 100 episode reward | 252      |
+| steps                   | 223493   |
+--------------------------------------
+12.0
+12.0
+14.04
+12.5
+10.0
+10.0
+17.53
+12.5
+14.0
+14.0
+33.09
+14.5
+12.0
+12.0
+37.53
+10.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 10500    |
+| mean 100 episode reward | 164      |
+| steps                   | 227240   |
+--------------------------------------
+177.0
+177.0
+22.17
+13.0
+22.0
+22.0
+21.17
+14.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 10600    |
+| mean 100 episode reward | 257      |
+| steps                   | 229402   |
+--------------------------------------
+14.0
+14.0
+14.64
+13.5
+Saving new best model to results\NovelGridworld-v0\NovelGridworld-v0_300000_CUMULATIVE_50_200_best_model
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 10700    |
+| mean 100 episode reward | 271      |
+| steps                   | 230916   |
+--------------------------------------
+15.0
+15.0
+15.28
+13.5
+17.0
+17.0
+14.92
+14.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 10800    |
+| mean 100 episode reward | 269      |
+| steps                   | 232187   |
+--------------------------------------
+14.0
+14.0
+13.04
+13.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 10900    |
+| mean 100 episode reward | 269      |
+| steps                   | 233452   |
+--------------------------------------
+10.0
+10.0
+13.35
+11.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 11000    |
+| mean 100 episode reward | 265      |
+| steps                   | 234835   |
+--------------------------------------
+10.0
+10.0
+13.13
+13.5
+11.0
+11.0
+16.05
+13.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 11100    |
+| mean 100 episode reward | 255      |
+| steps                   | 236462   |
+--------------------------------------
+12.0
+12.0
+14.93
+12.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 11200    |
+| mean 100 episode reward | 261      |
+| steps                   | 237926   |
+--------------------------------------
+19.0
+19.0
+14.67
+13.0
+11.0
+11.0
+14.73
+12.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 11300    |
+| mean 100 episode reward | 258      |
+| steps                   | 239349   |
+--------------------------------------
+17.0
+17.0
+13.62
+12.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 11400    |
+| mean 100 episode reward | 267      |
+| steps                   | 240729   |
+--------------------------------------
+14.0
+14.0
+13.29
+11.5
+10.0
+10.0
+14.39
+13.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 11500    |
+| mean 100 episode reward | 252      |
+| steps                   | 242126   |
+--------------------------------------
+11.0
+11.0
+13.3
+12.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 11600    |
+| mean 100 episode reward | 264      |
+| steps                   | 243444   |
+--------------------------------------
+11.0
+11.0
+12.63
+11.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 11700    |
+| mean 100 episode reward | 259      |
+| steps                   | 244821   |
+--------------------------------------
+10.0
+10.0
+13.96
+13.0
+15.0
+15.0
+17.52
+12.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 11800    |
+| mean 100 episode reward | 244      |
+| steps                   | 246454   |
+--------------------------------------
+12.0
+12.0
+12.77
+12.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 11900    |
+| mean 100 episode reward | 264      |
+| steps                   | 247732   |
+--------------------------------------
+10.0
+10.0
+12.8
+10.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 12000    |
+| mean 100 episode reward | 270      |
+| steps                   | 248973   |
+--------------------------------------
+15.0
+15.0
+12.41
+11.5
+14.0
+14.0
+13.45
+13.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 12100    |
+| mean 100 episode reward | 253      |
+| steps                   | 250545   |
+--------------------------------------
+9.0
+9.0
+15.15
+12.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 12200    |
+| mean 100 episode reward | 262      |
+| steps                   | 251848   |
+--------------------------------------
+12.0
+12.0
+13.04
+12.0
+13.0
+13.0
+17.31
+13.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 12300    |
+| mean 100 episode reward | 242      |
+| steps                   | 253776   |
+--------------------------------------
+36.0
+36.0
+18.09
+13.0
+12.0
+12.0
+24.43
+12.0
+13.0
+13.0
+31.73
+12.5
+9.0
+9.0
+36.3
+12.5
+10.0
+10.0
+49.53
+11.0
+12.0
+12.0
+59.29
+10.5
+9.0
+9.0
+59.14
+10.5
+19.0
+19.0
+76.05
+10.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 12400    |
+| mean 100 episode reward | 18.2     |
+| steps                   | 261964   |
+--------------------------------------
+10.0
+10.0
+80.81
+12.5
+23.0
+23.0
+19.97
+14.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 12500    |
+| mean 100 episode reward | 256      |
+| steps                   | 263302   |
+--------------------------------------
+13.0
+13.0
+13.98
+13.0
+13.0
+13.0
+22.3
+12.5
+10.0
+10.0
+23.91
+25.5
+10.0
+10.0
+23.91
+25.5
+10.0
+10.0
+23.91
+25.5
+532.0
+532.0
+60.86
+54.0
+20.0
+20.0
+70.49
+131.0
+191.0
+191.0
+77.39
+60.5
+23.0
+23.0
+83.98
+37.0
+82.0
+82.0
+96.96
+76.0
+282.0
+282.0
+106.58
+153.5
+249.0
+249.0
+108.93
+207.5
+353.0
+353.0
+125.92
+265.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 12600    |
+| mean 100 episode reward | -186     |
+| steps                   | 276542   |
+--------------------------------------
+33.0
+33.0
+134.99
+18.0
+10.0
+10.0
+57.23
+11.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 12700    |
+| mean 100 episode reward | 221      |
+| steps                   | 278264   |
+--------------------------------------
+13.0
+13.0
+16.54
+11.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 12800    |
+| mean 100 episode reward | 244      |
+| steps                   | 279883   |
+--------------------------------------
+13.0
+13.0
+13.9
+12.5
+12.0
+12.0
+12.96
+11.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 12900    |
+| mean 100 episode reward | 250      |
+| steps                   | 281195   |
+--------------------------------------
+10.0
+10.0
+14.04
+11.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 13000    |
+| mean 100 episode reward | 248      |
+| steps                   | 282610   |
+--------------------------------------
+13.0
+13.0
+14.63
+13.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 13100    |
+| mean 100 episode reward | 253      |
+| steps                   | 283966   |
+--------------------------------------
+12.0
+12.0
+13.55
+11.5
+13.0
+13.0
+12.89
+12.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 13200    |
+| mean 100 episode reward | 249      |
+| steps                   | 285224   |
+--------------------------------------
+14.0
+14.0
+12.67
+11.0
+15.0
+15.0
+23.99
+12.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 13300    |
+| mean 100 episode reward | 202      |
+| steps                   | 287665   |
+--------------------------------------
+12.0
+12.0
+24.67
+12.5
+21.0
+21.0
+13.45
+12.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 13400    |
+| mean 100 episode reward | 245      |
+| steps                   | 289021   |
+--------------------------------------
+10.0
+10.0
+14.62
+13.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 13500    |
+| mean 100 episode reward | 238      |
+| steps                   | 290510   |
+--------------------------------------
+11.0
+11.0
+15.41
+12.0
+17.0
+17.0
+18.39
+12.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 13600    |
+| mean 100 episode reward | 216      |
+| steps                   | 292353   |
+--------------------------------------
+11.0
+11.0
+13.11
+12.5
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 13700    |
+| mean 100 episode reward | 242      |
+| steps                   | 293991   |
+--------------------------------------
+9.0
+9.0
+16.38
+12.5
+20.0
+20.0
+13.13
+13.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 13800    |
+| mean 100 episode reward | 251      |
+| steps                   | 295397   |
+--------------------------------------
+16.0
+16.0
+14.27
+13.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 13900    |
+| mean 100 episode reward | 246      |
+| steps                   | 296774   |
+--------------------------------------
+13.0
+13.0
+13.42
+12.0
+21.0
+21.0
+15.7
+11.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 14000    |
+| mean 100 episode reward | 244      |
+| steps                   | 298347   |
+--------------------------------------
+11.0
+11.0
+14.34
+11.0
+--------------------------------------
+| % time spent exploring  | 2        |
+| episodes                | 14100    |
+| mean 100 episode reward | 247      |
+| steps                   | 299695   |
+--------------------------------------
+12.0
+12.0
+13.84
+12.5

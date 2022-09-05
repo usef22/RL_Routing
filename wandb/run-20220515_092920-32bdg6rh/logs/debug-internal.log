@@ -1,0 +1,272 @@
+2022-05-15 09:29:21,231 INFO    MainThread:5000 [internal.py:wandb_internal():89] W&B internal server running at pid: 5000, started at: 2022-05-15 09:29:21.224064
+2022-05-15 09:29:21,233 INFO    WriterThread:5000 [datastore.py:open_for_write():77] open: C:\Users\usef2\Documents\USC\PhD\RL Project\ML Delivery\RL_drone-main_traffic\wandb\run-20220515_092920-32bdg6rh\run-32bdg6rh.wandb
+2022-05-15 09:29:21,234 DEBUG   HandlerThread:5000 [handler.py:handle_request():126] handle_request: check_version
+2022-05-15 09:29:21,235 DEBUG   SenderThread:5000 [sender.py:send():182] send: header
+2022-05-15 09:29:21,236 DEBUG   SenderThread:5000 [sender.py:send_request():196] send_request: check_version
+2022-05-15 09:29:21,820 DEBUG   SenderThread:5000 [sender.py:send():182] send: run
+2022-05-15 09:29:21,833 DEBUG   SenderThread:5000 [git.py:repo():33] git repository is invalid
+2022-05-15 09:29:22,031 INFO    SenderThread:5000 [dir_watcher.py:__init__():169] watching files in: C:\Users\usef2\Documents\USC\PhD\RL Project\ML Delivery\RL_drone-main_traffic\wandb\run-20220515_092920-32bdg6rh\files
+2022-05-15 09:29:22,031 INFO    SenderThread:5000 [sender.py:_start_run_threads():743] run started: 32bdg6rh with start time 1652632160
+2022-05-15 09:29:22,031 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:22,031 DEBUG   HandlerThread:5000 [handler.py:handle_request():126] handle_request: run_start
+2022-05-15 09:29:22,032 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:23,042 INFO    Thread-12 :5000 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\usef2\Documents\USC\PhD\RL Project\ML Delivery\RL_drone-main_traffic\wandb\run-20220515_092920-32bdg6rh\files\wandb-summary.json
+2022-05-15 09:29:23,740 DEBUG   HandlerThread:5000 [meta.py:__init__():40] meta init
+2022-05-15 09:29:23,741 DEBUG   HandlerThread:5000 [meta.py:__init__():54] meta init done
+2022-05-15 09:29:23,741 DEBUG   HandlerThread:5000 [meta.py:probe():211] probe
+2022-05-15 09:29:23,773 DEBUG   HandlerThread:5000 [git.py:repo():33] git repository is invalid
+2022-05-15 09:29:23,774 DEBUG   HandlerThread:5000 [meta.py:_save_pip():58] save pip
+2022-05-15 09:29:23,774 DEBUG   HandlerThread:5000 [meta.py:_save_pip():72] save pip done
+2022-05-15 09:29:23,774 DEBUG   HandlerThread:5000 [meta.py:_save_conda():79] save conda
+2022-05-15 09:29:23,778 ERROR   HandlerThread:5000 [meta.py:_save_conda():86] Error saving conda packages
+Traceback (most recent call last):
+  File "C:\Users\usef2\anaconda3\envs\RL_drone-main\lib\site-packages\wandb\sdk\internal\meta.py", line 84, in _save_conda
+    subprocess.call(["conda", "env", "export"], stdout=f)
+  File "C:\Users\usef2\anaconda3\envs\RL_drone-main\lib\subprocess.py", line 287, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "C:\Users\usef2\anaconda3\envs\RL_drone-main\lib\subprocess.py", line 729, in __init__
+    restore_signals, start_new_session)
+  File "C:\Users\usef2\anaconda3\envs\RL_drone-main\lib\subprocess.py", line 1017, in _execute_child
+    startupinfo)
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2022-05-15 09:29:23,779 DEBUG   HandlerThread:5000 [meta.py:_save_conda():87] save conda done
+2022-05-15 09:29:23,779 DEBUG   HandlerThread:5000 [meta.py:probe():249] probe done
+2022-05-15 09:29:23,783 DEBUG   SenderThread:5000 [sender.py:send():182] send: files
+2022-05-15 09:29:23,783 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2022-05-15 09:29:23,786 DEBUG   HandlerThread:5000 [handler.py:handle_request():126] handle_request: stop_status
+2022-05-15 09:29:23,787 DEBUG   SenderThread:5000 [sender.py:send_request():196] send_request: stop_status
+2022-05-15 09:29:23,894 DEBUG   SenderThread:5000 [sender.py:send():182] send: config
+2022-05-15 09:29:23,894 DEBUG   SenderThread:5000 [sender.py:send():182] send: config
+2022-05-15 09:29:23,895 DEBUG   SenderThread:5000 [sender.py:send():182] send: config
+2022-05-15 09:29:23,895 DEBUG   SenderThread:5000 [sender.py:send():182] send: config
+2022-05-15 09:29:23,895 DEBUG   SenderThread:5000 [sender.py:send():182] send: config
+2022-05-15 09:29:23,895 DEBUG   SenderThread:5000 [sender.py:send():182] send: config
+2022-05-15 09:29:23,895 DEBUG   SenderThread:5000 [sender.py:send():182] send: config
+2022-05-15 09:29:24,056 INFO    Thread-12 :5000 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\usef2\Documents\USC\PhD\RL Project\ML Delivery\RL_drone-main_traffic\wandb\run-20220515_092920-32bdg6rh\files\wandb-metadata.json
+2022-05-15 09:29:24,057 INFO    Thread-12 :5000 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\usef2\Documents\USC\PhD\RL Project\ML Delivery\RL_drone-main_traffic\wandb\run-20220515_092920-32bdg6rh\files\requirements.txt
+2022-05-15 09:29:24,057 INFO    Thread-12 :5000 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\usef2\Documents\USC\PhD\RL Project\ML Delivery\RL_drone-main_traffic\wandb\run-20220515_092920-32bdg6rh\files\conda-environment.yaml
+2022-05-15 09:29:24,057 INFO    Thread-12 :5000 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\usef2\Documents\USC\PhD\RL Project\ML Delivery\RL_drone-main_traffic\wandb\run-20220515_092920-32bdg6rh\files\output.log
+2022-05-15 09:29:24,260 INFO    Thread-15 :5000 [upload_job.py:push():137] Uploaded file C:\Users\usef2\AppData\Local\Temp\tmpdfvbpo0owandb\zy26silb-wandb-metadata.json
+2022-05-15 09:29:26,077 INFO    Thread-12 :5000 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\PhD\RL Project\ML Delivery\RL_drone-main_traffic\wandb\run-20220515_092920-32bdg6rh\files\output.log
+2022-05-15 09:29:26,618 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:26,618 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:26,621 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:26,622 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:26,623 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:26,623 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:26,623 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:26,623 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:26,624 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:26,624 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:26,624 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:26,624 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:26,625 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:26,625 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:26,625 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:26,625 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:26,625 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:26,626 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:27,081 INFO    Thread-12 :5000 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\PhD\RL Project\ML Delivery\RL_drone-main_traffic\wandb\run-20220515_092920-32bdg6rh\files\wandb-summary.json
+2022-05-15 09:29:28,085 INFO    Thread-12 :5000 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\PhD\RL Project\ML Delivery\RL_drone-main_traffic\wandb\run-20220515_092920-32bdg6rh\files\output.log
+2022-05-15 09:29:28,993 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:28,993 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:28,996 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:28,997 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:28,997 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:28,998 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:28,999 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:28,999 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:28,999 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:28,999 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:28,999 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:29,000 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:29,000 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:29,000 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:29,000 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:29,001 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:29,001 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:29,001 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:29,097 INFO    Thread-12 :5000 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\PhD\RL Project\ML Delivery\RL_drone-main_traffic\wandb\run-20220515_092920-32bdg6rh\files\wandb-summary.json
+2022-05-15 09:29:30,106 INFO    Thread-12 :5000 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\PhD\RL Project\ML Delivery\RL_drone-main_traffic\wandb\run-20220515_092920-32bdg6rh\files\output.log
+2022-05-15 09:29:31,220 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:31,220 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:31,222 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:31,222 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:31,222 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:31,223 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:31,223 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:31,223 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:31,223 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:31,224 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:31,224 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:31,224 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:31,224 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:31,224 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:31,225 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:31,225 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:31,225 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:31,225 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:32,132 INFO    Thread-12 :5000 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\PhD\RL Project\ML Delivery\RL_drone-main_traffic\wandb\run-20220515_092920-32bdg6rh\files\wandb-summary.json
+2022-05-15 09:29:32,133 INFO    Thread-12 :5000 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\PhD\RL Project\ML Delivery\RL_drone-main_traffic\wandb\run-20220515_092920-32bdg6rh\files\output.log
+2022-05-15 09:29:33,312 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:33,314 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:33,315 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:33,316 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:33,316 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:33,316 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:33,316 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:33,316 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:33,317 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:33,317 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:33,317 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:33,317 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:33,318 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:33,318 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:33,318 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:33,318 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:33,318 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:33,319 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:34,156 INFO    Thread-12 :5000 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\PhD\RL Project\ML Delivery\RL_drone-main_traffic\wandb\run-20220515_092920-32bdg6rh\files\wandb-summary.json
+2022-05-15 09:29:34,157 INFO    Thread-12 :5000 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\PhD\RL Project\ML Delivery\RL_drone-main_traffic\wandb\run-20220515_092920-32bdg6rh\files\output.log
+2022-05-15 09:29:35,428 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:35,428 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:35,433 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:35,434 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:35,434 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:35,434 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:35,435 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:35,435 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:35,435 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:35,436 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:35,436 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:35,436 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:35,437 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:35,437 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:35,437 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:35,438 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:35,438 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:35,438 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:36,172 INFO    Thread-12 :5000 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\PhD\RL Project\ML Delivery\RL_drone-main_traffic\wandb\run-20220515_092920-32bdg6rh\files\wandb-summary.json
+2022-05-15 09:29:36,173 INFO    Thread-12 :5000 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\PhD\RL Project\ML Delivery\RL_drone-main_traffic\wandb\run-20220515_092920-32bdg6rh\files\output.log
+2022-05-15 09:29:37,517 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:37,518 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:37,520 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:37,521 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:37,521 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:37,521 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:37,522 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:37,522 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:37,522 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:37,522 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:37,522 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:37,523 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:37,523 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:37,523 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:37,523 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:37,524 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:37,524 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:37,524 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:38,182 INFO    Thread-12 :5000 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\PhD\RL Project\ML Delivery\RL_drone-main_traffic\wandb\run-20220515_092920-32bdg6rh\files\wandb-summary.json
+2022-05-15 09:29:38,183 INFO    Thread-12 :5000 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\PhD\RL Project\ML Delivery\RL_drone-main_traffic\wandb\run-20220515_092920-32bdg6rh\files\output.log
+2022-05-15 09:29:38,906 DEBUG   HandlerThread:5000 [handler.py:handle_request():126] handle_request: stop_status
+2022-05-15 09:29:38,906 DEBUG   SenderThread:5000 [sender.py:send_request():196] send_request: stop_status
+2022-05-15 09:29:39,648 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:39,648 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:39,651 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:39,652 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:39,652 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:39,653 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:39,653 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:39,653 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:39,654 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:39,654 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:39,654 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:39,654 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:39,655 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:39,655 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:39,655 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:39,655 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:39,655 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:39,656 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:40,201 INFO    Thread-12 :5000 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\PhD\RL Project\ML Delivery\RL_drone-main_traffic\wandb\run-20220515_092920-32bdg6rh\files\wandb-summary.json
+2022-05-15 09:29:40,201 INFO    Thread-12 :5000 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\PhD\RL Project\ML Delivery\RL_drone-main_traffic\wandb\run-20220515_092920-32bdg6rh\files\output.log
+2022-05-15 09:29:41,857 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:41,858 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:41,860 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:41,863 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:41,863 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:41,863 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:41,864 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:41,864 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:41,864 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:41,865 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:41,865 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:41,865 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:41,865 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:41,865 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:41,866 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:41,866 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:41,866 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:41,866 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:42,219 INFO    Thread-12 :5000 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\PhD\RL Project\ML Delivery\RL_drone-main_traffic\wandb\run-20220515_092920-32bdg6rh\files\wandb-summary.json
+2022-05-15 09:29:42,220 INFO    Thread-12 :5000 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\PhD\RL Project\ML Delivery\RL_drone-main_traffic\wandb\run-20220515_092920-32bdg6rh\files\output.log
+2022-05-15 09:29:44,089 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:44,089 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:44,090 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:44,090 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:44,090 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:44,091 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:44,091 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:44,091 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:44,092 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:44,092 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:44,092 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:44,093 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:44,093 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:44,093 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:44,094 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:44,094 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:44,095 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:44,096 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:44,238 INFO    Thread-12 :5000 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\PhD\RL Project\ML Delivery\RL_drone-main_traffic\wandb\run-20220515_092920-32bdg6rh\files\wandb-summary.json
+2022-05-15 09:29:44,238 INFO    Thread-12 :5000 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\PhD\RL Project\ML Delivery\RL_drone-main_traffic\wandb\run-20220515_092920-32bdg6rh\files\output.log
+2022-05-15 09:29:46,264 INFO    Thread-12 :5000 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\PhD\RL Project\ML Delivery\RL_drone-main_traffic\wandb\run-20220515_092920-32bdg6rh\files\output.log
+2022-05-15 09:29:46,696 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:46,696 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:46,698 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:46,698 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:46,698 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:46,699 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:46,700 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:46,700 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:46,700 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:46,700 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:46,700 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:46,701 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:46,701 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:46,701 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:46,701 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:46,702 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:46,702 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:46,702 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:47,271 INFO    Thread-12 :5000 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\PhD\RL Project\ML Delivery\RL_drone-main_traffic\wandb\run-20220515_092920-32bdg6rh\files\wandb-summary.json
+2022-05-15 09:29:48,277 INFO    Thread-12 :5000 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\PhD\RL Project\ML Delivery\RL_drone-main_traffic\wandb\run-20220515_092920-32bdg6rh\files\output.log
+2022-05-15 09:29:49,085 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:49,085 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:49,088 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:49,088 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:49,088 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:49,089 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:49,089 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:49,089 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:49,090 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:49,090 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:49,090 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:49,090 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:49,091 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:49,091 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:49,091 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:49,091 DEBUG   SenderThread:5000 [sender.py:send():182] send: history
+2022-05-15 09:29:49,091 DEBUG   SenderThread:5000 [sender.py:send():182] send: summary
+2022-05-15 09:29:49,092 INFO    SenderThread:5000 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-05-15 09:29:49,288 INFO    Thread-12 :5000 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\PhD\RL Project\ML Delivery\RL_drone-main_traffic\wandb\run-20220515_092920-32bdg6rh\files\wandb-summary.json

@@ -1,0 +1,40 @@
+wandb_version: 1
+
+BW_Maps:
+  desc: null
+  value: 3
+BW_Req:
+  desc: null
+  value: 2
+Baseline:
+  desc: null
+  value: A2C
+HighBW:
+  desc: null
+  value: 5
+Punish:
+  desc: null
+  value: 600
+TEST_TYPE:
+  desc: null
+  value: CUMULATIVE
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.1
+    framework: tensorflow
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.6.13
+    start_time: 1652654572
+    t:
+      1:
+      - 3
+      4: 3.6.13
+      5: 0.12.1
+      8:
+      - 3
+      - 5
+timesteps:
+  desc: null
+  value: 300000

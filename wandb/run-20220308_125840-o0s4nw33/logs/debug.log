@@ -1,0 +1,38 @@
+2022-03-08 12:58:40,298 INFO    MainThread:18952 [wandb_setup.py:_flush():69] setting env: {}
+2022-03-08 12:58:40,298 INFO    MainThread:18952 [wandb_setup.py:_flush():69] setting login settings: {}
+2022-03-08 12:58:40,298 INFO    MainThread:18952 [wandb_init.py:_log_setup():342] Logging user logs to C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220308_125840-o0s4nw33\logs\debug.log
+2022-03-08 12:58:40,299 INFO    MainThread:18952 [wandb_init.py:_log_setup():343] Logging internal logs to C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220308_125840-o0s4nw33\logs\debug-internal.log
+2022-03-08 12:58:40,299 INFO    MainThread:18952 [wandb_init.py:init():375] calling init triggers
+2022-03-08 12:58:40,299 INFO    MainThread:18952 [wandb_init.py:init():382] wandb.init called with sweep_config: {}
+config: {}
+2022-03-08 12:58:40,299 INFO    MainThread:18952 [wandb_init.py:init():424] starting backend
+2022-03-08 12:58:40,299 INFO    MainThread:18952 [backend.py:_multiprocessing_setup():72] multiprocessing start_methods=spawn, using: spawn
+2022-03-08 12:58:40,303 INFO    MainThread:18952 [backend.py:ensure_launched():135] starting backend process...
+2022-03-08 12:58:40,380 INFO    MainThread:18952 [backend.py:ensure_launched():140] started backend process with pid: 35552
+2022-03-08 12:58:40,381 INFO    MainThread:18952 [wandb_init.py:init():429] backend started and connected
+2022-03-08 12:58:40,381 INFO    MainThread:18952 [wandb_init.py:init():477] updated telemetry
+2022-03-08 12:58:40,381 INFO    MainThread:18952 [wandb_init.py:init():500] communicating current version
+2022-03-08 12:58:42,040 INFO    MainThread:18952 [wandb_init.py:init():505] got version response upgrade_message: "wandb version 0.12.11 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2022-03-08 12:58:42,040 INFO    MainThread:18952 [wandb_init.py:init():513] communicating run to backend with 30 second timeout
+2022-03-08 12:58:42,201 INFO    MainThread:18952 [wandb_init.py:init():540] starting run threads in backend
+2022-03-08 12:58:44,111 INFO    MainThread:18952 [wandb_run.py:_console_start():1601] atexit reg
+2022-03-08 12:58:44,112 INFO    MainThread:18952 [wandb_run.py:_redirect():1475] redirect: SettingsConsole.WRAP
+2022-03-08 12:58:44,113 INFO    MainThread:18952 [wandb_run.py:_redirect():1512] Wrapping output streams.
+2022-03-08 12:58:44,117 INFO    MainThread:18952 [wandb_run.py:_redirect():1536] Redirects installed.
+2022-03-08 12:58:44,117 INFO    MainThread:18952 [wandb_init.py:init():565] run started, returning control to user process
+2022-03-08 12:58:44,117 INFO    MainThread:18952 [wandb_config.py:__setitem__():141] config set Baseline = Traffic Unaware - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CFEBD8B6D8>>
+2022-03-08 12:58:44,117 INFO    MainThread:18952 [wandb_run.py:_config_callback():843] config_cb Baseline Traffic Unaware None
+2022-03-08 12:58:44,117 INFO    MainThread:18952 [wandb_config.py:__setitem__():141] config set Map_Set = Traffic Test - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CFEBD8B6D8>>
+2022-03-08 12:58:44,118 INFO    MainThread:18952 [wandb_run.py:_config_callback():843] config_cb Map_Set Traffic Test None
+2022-03-08 12:58:44,118 INFO    MainThread:18952 [wandb_config.py:__setitem__():141] config set HighBW = 4 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CFEBD8B6D8>>
+2022-03-08 12:58:44,119 INFO    MainThread:18952 [wandb_run.py:_config_callback():843] config_cb HighBW 4 None
+2022-03-08 12:58:44,119 INFO    MainThread:18952 [wandb_config.py:__setitem__():141] config set BW_Req = 1.2 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CFEBD8B6D8>>
+2022-03-08 12:58:44,120 INFO    MainThread:18952 [wandb_run.py:_config_callback():843] config_cb BW_Req 1.2 None
+2022-03-08 12:58:44,120 INFO    MainThread:18952 [wandb_config.py:__setitem__():141] config set BW_Maps = 2 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CFEBD8B6D8>>
+2022-03-08 12:58:44,120 INFO    MainThread:18952 [wandb_run.py:_config_callback():843] config_cb BW_Maps 2 None
+2022-03-08 12:58:44,121 INFO    MainThread:18952 [wandb_config.py:__setitem__():141] config set Punish = 600 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CFEBD8B6D8>>
+2022-03-08 12:58:44,121 INFO    MainThread:18952 [wandb_run.py:_config_callback():843] config_cb Punish 600 None
+2022-03-08 12:58:44,122 INFO    MainThread:18952 [wandb_config.py:__setitem__():141] config set timesteps = 300000 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001CFEBD8B6D8>>
+2022-03-08 12:58:44,122 INFO    MainThread:18952 [wandb_run.py:_config_callback():843] config_cb timesteps 300000 None
+2022-03-08 13:10:47,237 INFO    MainThread:18952 [wandb_run.py:finish():1271] finishing run usef22/time/o0s4nw33

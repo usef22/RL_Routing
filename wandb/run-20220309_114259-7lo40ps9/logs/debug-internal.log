@@ -1,0 +1,623 @@
+2022-03-09 11:43:00,416 INFO    MainThread:26020 [internal.py:wandb_internal():89] W&B internal server running at pid: 26020, started at: 2022-03-09 11:43:00.409559
+2022-03-09 11:43:00,417 INFO    WriterThread:26020 [datastore.py:open_for_write():77] open: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\run-7lo40ps9.wandb
+2022-03-09 11:43:00,418 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: check_version
+2022-03-09 11:43:00,419 DEBUG   SenderThread:26020 [sender.py:send():182] send: header
+2022-03-09 11:43:00,420 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: check_version
+2022-03-09 11:43:00,963 DEBUG   SenderThread:26020 [sender.py:send():182] send: run
+2022-03-09 11:43:00,975 DEBUG   SenderThread:26020 [git.py:repo():33] git repository is invalid
+2022-03-09 11:43:01,120 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: run_start
+2022-03-09 11:43:01,121 INFO    SenderThread:26020 [dir_watcher.py:__init__():169] watching files in: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files
+2022-03-09 11:43:01,121 INFO    SenderThread:26020 [sender.py:_start_run_threads():743] run started: 7lo40ps9 with start time 1646854979
+2022-03-09 11:43:01,121 DEBUG   SenderThread:26020 [sender.py:send():182] send: summary
+2022-03-09 11:43:01,121 INFO    SenderThread:26020 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-03-09 11:43:02,131 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\wandb-summary.json
+2022-03-09 11:43:02,679 DEBUG   HandlerThread:26020 [meta.py:__init__():40] meta init
+2022-03-09 11:43:02,679 DEBUG   HandlerThread:26020 [meta.py:__init__():54] meta init done
+2022-03-09 11:43:02,679 DEBUG   HandlerThread:26020 [meta.py:probe():211] probe
+2022-03-09 11:43:02,712 DEBUG   HandlerThread:26020 [git.py:repo():33] git repository is invalid
+2022-03-09 11:43:02,712 DEBUG   HandlerThread:26020 [meta.py:_save_pip():58] save pip
+2022-03-09 11:43:02,713 DEBUG   HandlerThread:26020 [meta.py:_save_pip():72] save pip done
+2022-03-09 11:43:02,713 DEBUG   HandlerThread:26020 [meta.py:_save_conda():79] save conda
+2022-03-09 11:43:02,715 ERROR   HandlerThread:26020 [meta.py:_save_conda():86] Error saving conda packages
+Traceback (most recent call last):
+  File "C:\Users\usef2\anaconda3\envs\RL_drone-main\lib\site-packages\wandb\sdk\internal\meta.py", line 84, in _save_conda
+    subprocess.call(["conda", "env", "export"], stdout=f)
+  File "C:\Users\usef2\anaconda3\envs\RL_drone-main\lib\subprocess.py", line 287, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "C:\Users\usef2\anaconda3\envs\RL_drone-main\lib\subprocess.py", line 729, in __init__
+    restore_signals, start_new_session)
+  File "C:\Users\usef2\anaconda3\envs\RL_drone-main\lib\subprocess.py", line 1017, in _execute_child
+    startupinfo)
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2022-03-09 11:43:02,717 DEBUG   HandlerThread:26020 [meta.py:_save_conda():87] save conda done
+2022-03-09 11:43:02,717 DEBUG   HandlerThread:26020 [meta.py:probe():249] probe done
+2022-03-09 11:43:02,720 DEBUG   SenderThread:26020 [sender.py:send():182] send: files
+2022-03-09 11:43:02,720 INFO    SenderThread:26020 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2022-03-09 11:43:02,724 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:43:02,724 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:43:02,826 DEBUG   SenderThread:26020 [sender.py:send():182] send: config
+2022-03-09 11:43:02,826 DEBUG   SenderThread:26020 [sender.py:send():182] send: config
+2022-03-09 11:43:02,826 DEBUG   SenderThread:26020 [sender.py:send():182] send: config
+2022-03-09 11:43:02,826 DEBUG   SenderThread:26020 [sender.py:send():182] send: config
+2022-03-09 11:43:02,827 DEBUG   SenderThread:26020 [sender.py:send():182] send: config
+2022-03-09 11:43:02,827 DEBUG   SenderThread:26020 [sender.py:send():182] send: config
+2022-03-09 11:43:03,141 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\requirements.txt
+2022-03-09 11:43:03,141 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:43:03,142 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\conda-environment.yaml
+2022-03-09 11:43:03,142 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\wandb-metadata.json
+2022-03-09 11:43:03,240 INFO    Thread-15 :26020 [upload_job.py:push():137] Uploaded file C:\Users\usef2\AppData\Local\Temp\tmpg7fg8js7wandb\38q8p76o-wandb-metadata.json
+2022-03-09 11:43:05,171 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:43:07,189 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:43:09,196 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:43:11,217 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:43:13,230 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:43:15,244 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:43:17,265 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:43:17,829 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:43:17,829 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:43:19,274 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:43:21,285 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:43:23,301 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:43:25,329 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:43:27,344 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:43:29,361 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:43:31,391 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:43:31,392 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\config.yaml
+2022-03-09 11:43:32,964 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:43:32,964 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:43:33,403 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:43:33,644 DEBUG   SenderThread:26020 [sender.py:send():182] send: stats
+2022-03-09 11:43:35,420 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:43:37,426 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:43:39,450 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:43:41,464 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:43:43,490 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:43:45,498 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:43:47,504 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:43:48,080 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:43:48,080 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:43:49,520 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:43:51,534 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:43:53,554 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:43:55,574 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:43:57,595 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:43:59,610 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:44:01,639 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:44:03,219 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:44:03,219 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:44:03,644 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:44:05,732 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:44:06,852 DEBUG   SenderThread:26020 [sender.py:send():182] send: stats
+2022-03-09 11:44:07,748 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:44:09,778 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:44:11,797 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:44:13,810 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:44:15,824 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:44:17,834 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:44:18,338 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:44:18,338 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:44:19,840 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:44:21,851 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:44:23,874 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:44:25,877 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:44:27,907 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:44:29,927 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:44:31,944 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:44:33,451 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:44:33,451 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:44:33,964 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:44:35,981 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:44:37,989 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:44:39,930 DEBUG   SenderThread:26020 [sender.py:send():182] send: stats
+2022-03-09 11:44:40,016 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:44:42,045 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:44:44,058 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:44:46,082 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:44:48,099 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:44:48,584 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:44:48,584 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:44:50,108 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:44:52,112 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:44:54,118 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:44:56,141 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:44:58,156 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:45:00,170 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:45:02,185 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:45:03,727 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:45:03,727 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:45:04,198 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:45:06,203 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:45:08,218 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:45:10,231 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:45:12,233 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:45:13,068 DEBUG   SenderThread:26020 [sender.py:send():182] send: stats
+2022-03-09 11:45:14,249 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:45:16,264 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:45:18,293 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:45:18,827 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:45:18,827 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:45:20,306 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:45:22,309 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:45:24,328 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:45:26,345 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:45:28,358 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:45:30,363 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:45:32,385 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:45:33,952 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:45:33,952 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:45:34,393 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:45:36,403 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:45:38,417 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:45:40,436 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:45:42,451 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:45:44,465 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:45:46,160 DEBUG   SenderThread:26020 [sender.py:send():182] send: stats
+2022-03-09 11:45:46,484 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:45:48,492 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:45:49,085 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:45:49,085 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:45:50,496 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:45:52,524 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:45:54,541 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:45:56,555 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:45:58,568 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:46:00,580 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:46:02,594 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:46:04,200 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:46:04,200 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:46:04,606 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:46:06,628 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:46:08,643 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:46:10,656 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:46:12,672 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:46:14,698 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:46:16,702 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:46:18,706 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:46:19,245 DEBUG   SenderThread:26020 [sender.py:send():182] send: stats
+2022-03-09 11:46:19,365 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:46:19,365 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:46:20,723 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:46:22,737 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:46:24,748 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:46:26,770 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:46:28,788 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:46:30,800 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:46:32,828 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:46:34,647 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:46:34,647 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:46:34,833 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:46:36,846 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:46:38,862 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:46:40,868 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:46:42,888 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:46:44,915 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:46:46,918 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:46:48,947 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:46:49,777 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:46:49,777 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:46:50,968 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:46:52,294 DEBUG   SenderThread:26020 [sender.py:send():182] send: stats
+2022-03-09 11:46:52,991 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:46:55,007 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:46:57,016 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:46:59,032 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:47:01,049 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:47:03,066 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:47:04,891 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:47:04,891 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:47:05,095 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:47:07,099 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:47:09,117 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:47:11,133 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:47:13,142 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:47:15,151 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:47:17,159 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:47:19,168 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:47:19,998 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:47:19,998 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:47:21,171 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:47:23,176 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:47:25,185 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:47:25,377 DEBUG   SenderThread:26020 [sender.py:send():182] send: stats
+2022-03-09 11:47:27,211 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:47:29,218 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:47:31,228 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:47:33,250 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:47:35,124 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:47:35,125 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:47:35,279 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:47:37,295 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:47:39,312 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:47:41,340 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:47:43,352 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:47:45,372 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:47:47,389 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:47:49,405 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:47:50,256 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:47:50,256 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:47:51,418 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:47:53,434 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:47:55,455 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:47:57,475 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:47:58,408 DEBUG   SenderThread:26020 [sender.py:send():182] send: stats
+2022-03-09 11:47:59,495 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:48:01,497 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:48:03,512 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:48:05,469 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:48:05,469 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:48:05,531 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:48:07,549 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:48:09,577 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:48:11,613 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:48:13,620 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:48:15,638 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:48:17,657 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:48:19,668 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:48:20,611 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:48:20,611 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:48:21,687 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:48:23,703 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:48:25,711 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:48:27,723 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:48:29,749 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:48:31,456 DEBUG   SenderThread:26020 [sender.py:send():182] send: stats
+2022-03-09 11:48:31,763 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:48:33,770 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:48:35,745 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:48:35,745 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:48:35,777 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:48:37,796 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:48:39,813 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:48:41,839 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:48:43,857 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:48:45,868 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:48:47,885 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:48:49,909 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:48:50,851 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:48:50,852 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:48:51,928 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:48:53,933 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:48:55,951 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:48:57,956 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:48:59,975 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:49:01,996 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:49:04,010 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:49:04,534 DEBUG   SenderThread:26020 [sender.py:send():182] send: stats
+2022-03-09 11:49:05,957 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:49:05,957 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:49:06,020 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:49:08,041 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:49:10,061 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:49:12,067 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:49:14,094 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:49:16,097 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:49:18,126 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:49:20,140 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:49:21,063 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:49:21,063 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:49:22,156 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:49:24,163 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:49:26,171 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:49:28,178 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:49:30,198 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:49:32,214 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:49:34,222 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:49:36,198 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:49:36,198 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:49:36,245 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:49:37,610 DEBUG   SenderThread:26020 [sender.py:send():182] send: stats
+2022-03-09 11:49:38,257 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:49:40,271 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:49:42,286 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:49:44,294 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:49:46,308 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:49:48,317 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:49:50,329 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:49:51,317 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:49:51,317 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:49:52,339 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:49:54,345 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:49:56,367 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:49:58,377 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:50:00,397 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:50:02,426 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:50:04,443 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:50:06,453 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:50:06,453 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:50:06,470 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:50:08,488 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:50:10,506 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:50:10,684 DEBUG   SenderThread:26020 [sender.py:send():182] send: stats
+2022-03-09 11:50:12,515 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:50:14,521 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:50:16,530 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:50:18,539 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:50:20,547 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:50:21,590 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:50:21,590 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:50:22,567 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:50:24,580 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:50:26,595 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:50:28,609 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:50:30,622 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:50:32,626 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:50:34,650 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:50:36,678 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:50:36,725 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:50:36,725 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:50:38,692 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:50:40,707 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:50:42,725 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:50:43,808 DEBUG   SenderThread:26020 [sender.py:send():182] send: stats
+2022-03-09 11:50:44,726 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:50:46,755 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:50:48,762 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:50:50,779 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:50:51,856 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:50:51,857 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:50:52,804 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:50:54,823 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:50:56,841 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:50:58,859 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:51:00,883 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:51:02,904 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:51:04,912 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:51:06,919 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:51:06,966 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:51:06,966 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:51:08,927 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:51:10,932 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:51:12,954 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:51:14,972 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:51:16,897 DEBUG   SenderThread:26020 [sender.py:send():182] send: stats
+2022-03-09 11:51:17,000 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:51:19,008 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:51:21,025 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:51:22,135 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:51:22,135 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:51:23,048 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:51:25,063 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:51:27,068 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:51:29,083 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:51:31,109 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:51:33,135 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:51:35,159 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:51:37,187 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:51:37,405 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:51:37,405 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:51:39,190 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:51:41,207 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:51:43,221 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:51:45,239 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:51:47,265 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:51:49,283 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:51:49,964 DEBUG   SenderThread:26020 [sender.py:send():182] send: stats
+2022-03-09 11:51:51,299 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:51:52,539 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:51:52,539 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:51:53,312 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:51:55,327 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:51:57,354 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:51:59,376 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:52:01,392 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:52:03,420 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:52:05,440 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:52:07,454 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:52:07,657 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:52:07,657 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:52:09,478 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:52:11,493 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:52:13,521 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:52:15,530 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:52:17,546 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:52:19,550 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:52:21,576 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:52:22,795 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:52:22,795 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:52:23,044 DEBUG   SenderThread:26020 [sender.py:send():182] send: stats
+2022-03-09 11:52:23,606 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:52:25,609 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:52:27,625 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:52:29,626 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:52:31,653 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:52:33,667 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:52:35,676 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:52:37,693 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:52:37,911 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:52:37,911 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:52:39,699 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:52:41,714 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:52:43,725 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:52:45,738 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:52:47,765 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:52:49,767 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:52:51,777 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:52:53,046 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:52:53,046 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:52:53,795 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:52:55,801 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:52:56,146 DEBUG   SenderThread:26020 [sender.py:send():182] send: stats
+2022-03-09 11:52:57,819 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:52:59,836 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:53:01,843 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:53:03,859 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:53:05,872 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:53:07,879 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:53:08,162 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:53:08,162 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:53:09,898 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:53:11,915 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:53:13,944 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:53:15,956 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:53:17,980 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:53:20,007 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:53:22,020 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:53:23,269 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:53:23,269 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:53:24,046 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:53:26,052 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:53:28,070 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:53:29,230 DEBUG   SenderThread:26020 [sender.py:send():182] send: stats
+2022-03-09 11:53:30,089 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:53:32,095 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:53:34,107 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:53:36,121 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:53:38,141 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:53:38,407 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:53:38,407 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:53:40,154 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:53:42,165 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:53:44,173 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:53:46,190 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:53:48,206 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:53:50,219 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:53:52,238 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:53:53,533 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:53:53,533 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:53:54,266 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:53:56,273 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:53:58,289 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:54:00,298 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:54:02,318 DEBUG   SenderThread:26020 [sender.py:send():182] send: stats
+2022-03-09 11:54:02,319 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:54:04,343 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:54:06,357 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:54:08,362 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:54:08,646 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:54:08,646 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:54:10,380 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:54:12,391 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:54:14,407 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:54:16,418 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:54:18,432 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:54:20,451 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:54:22,467 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:54:23,967 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:54:23,968 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:54:24,472 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:54:26,488 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:54:28,507 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:54:30,518 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:54:32,528 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:54:34,541 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:54:35,501 DEBUG   SenderThread:26020 [sender.py:send():182] send: stats
+2022-03-09 11:54:36,547 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:54:38,562 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:54:39,065 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 11:54:39,065 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 11:54:40,582 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:54:42,590 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:54:44,593 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:54:45,596 INFO    Thread-12 :26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:54:45,658 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: poll_exit
+2022-03-09 11:54:45,658 DEBUG   SenderThread:26020 [sender.py:send():182] send: telemetry
+2022-03-09 11:54:45,658 DEBUG   SenderThread:26020 [sender.py:send():182] send: exit
+2022-03-09 11:54:45,658 INFO    SenderThread:26020 [sender.py:send_exit():291] handling exit code: 0
+2022-03-09 11:54:45,658 INFO    SenderThread:26020 [sender.py:send_exit():293] handling runtime: 704
+2022-03-09 11:54:45,659 INFO    SenderThread:26020 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-03-09 11:54:45,659 INFO    SenderThread:26020 [sender.py:send_exit():303] send defer
+2022-03-09 11:54:45,659 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: poll_exit
+2022-03-09 11:54:45,659 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: defer
+2022-03-09 11:54:45,659 INFO    HandlerThread:26020 [handler.py:handle_request_defer():143] handle defer: 0
+2022-03-09 11:54:45,660 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: defer
+2022-03-09 11:54:45,660 INFO    SenderThread:26020 [sender.py:send_request_defer():312] handle sender defer: 0
+2022-03-09 11:54:45,660 INFO    SenderThread:26020 [sender.py:transition_state():316] send defer: 1
+2022-03-09 11:54:45,660 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: defer
+2022-03-09 11:54:45,660 INFO    HandlerThread:26020 [handler.py:handle_request_defer():143] handle defer: 1
+2022-03-09 11:54:45,682 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: defer
+2022-03-09 11:54:45,682 INFO    SenderThread:26020 [sender.py:send_request_defer():312] handle sender defer: 1
+2022-03-09 11:54:45,682 INFO    SenderThread:26020 [sender.py:transition_state():316] send defer: 2
+2022-03-09 11:54:45,682 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: defer
+2022-03-09 11:54:45,682 INFO    HandlerThread:26020 [handler.py:handle_request_defer():143] handle defer: 2
+2022-03-09 11:54:45,682 DEBUG   SenderThread:26020 [sender.py:send():182] send: stats
+2022-03-09 11:54:45,682 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: defer
+2022-03-09 11:54:45,682 INFO    SenderThread:26020 [sender.py:send_request_defer():312] handle sender defer: 2
+2022-03-09 11:54:45,682 INFO    SenderThread:26020 [sender.py:transition_state():316] send defer: 3
+2022-03-09 11:54:45,683 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: defer
+2022-03-09 11:54:45,683 INFO    HandlerThread:26020 [handler.py:handle_request_defer():143] handle defer: 3
+2022-03-09 11:54:45,683 DEBUG   SenderThread:26020 [sender.py:send():182] send: summary
+2022-03-09 11:54:45,683 INFO    SenderThread:26020 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-03-09 11:54:45,684 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: defer
+2022-03-09 11:54:45,684 INFO    SenderThread:26020 [sender.py:send_request_defer():312] handle sender defer: 3
+2022-03-09 11:54:45,684 INFO    SenderThread:26020 [sender.py:transition_state():316] send defer: 4
+2022-03-09 11:54:45,684 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: defer
+2022-03-09 11:54:45,684 INFO    HandlerThread:26020 [handler.py:handle_request_defer():143] handle defer: 4
+2022-03-09 11:54:45,684 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: defer
+2022-03-09 11:54:45,684 INFO    SenderThread:26020 [sender.py:send_request_defer():312] handle sender defer: 4
+2022-03-09 11:54:45,764 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: poll_exit
+2022-03-09 11:54:45,843 INFO    SenderThread:26020 [sender.py:transition_state():316] send defer: 5
+2022-03-09 11:54:45,843 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: poll_exit
+2022-03-09 11:54:45,844 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: defer
+2022-03-09 11:54:45,844 INFO    HandlerThread:26020 [handler.py:handle_request_defer():143] handle defer: 5
+2022-03-09 11:54:45,844 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: defer
+2022-03-09 11:54:45,844 INFO    SenderThread:26020 [sender.py:send_request_defer():312] handle sender defer: 5
+2022-03-09 11:54:45,844 INFO    SenderThread:26020 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-03-09 11:54:45,951 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: poll_exit
+2022-03-09 11:54:46,606 INFO    SenderThread:26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:54:46,606 INFO    SenderThread:26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\config.yaml
+2022-03-09 11:54:46,606 INFO    SenderThread:26020 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\wandb-summary.json
+2022-03-09 11:54:46,606 INFO    SenderThread:26020 [dir_watcher.py:finish():313] scan: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files
+2022-03-09 11:54:46,606 INFO    SenderThread:26020 [dir_watcher.py:finish():327] scan save: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\conda-environment.yaml conda-environment.yaml
+2022-03-09 11:54:46,607 INFO    SenderThread:26020 [dir_watcher.py:finish():327] scan save: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\config.yaml config.yaml
+2022-03-09 11:54:46,607 INFO    SenderThread:26020 [dir_watcher.py:finish():327] scan save: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log output.log
+2022-03-09 11:54:46,607 INFO    SenderThread:26020 [dir_watcher.py:finish():327] scan save: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\requirements.txt requirements.txt
+2022-03-09 11:54:46,608 INFO    SenderThread:26020 [dir_watcher.py:finish():327] scan save: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\wandb-metadata.json wandb-metadata.json
+2022-03-09 11:54:46,608 INFO    SenderThread:26020 [dir_watcher.py:finish():327] scan save: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\wandb-summary.json wandb-summary.json
+2022-03-09 11:54:46,616 INFO    SenderThread:26020 [sender.py:transition_state():316] send defer: 6
+2022-03-09 11:54:46,616 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: poll_exit
+2022-03-09 11:54:46,617 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: defer
+2022-03-09 11:54:46,617 INFO    HandlerThread:26020 [handler.py:handle_request_defer():143] handle defer: 6
+2022-03-09 11:54:46,617 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: defer
+2022-03-09 11:54:46,617 INFO    SenderThread:26020 [sender.py:send_request_defer():312] handle sender defer: 6
+2022-03-09 11:54:46,617 INFO    SenderThread:26020 [file_pusher.py:finish():177] shutting down file pusher
+2022-03-09 11:54:46,730 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: poll_exit
+2022-03-09 11:54:46,730 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: poll_exit
+2022-03-09 11:54:46,838 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: poll_exit
+2022-03-09 11:54:46,838 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: poll_exit
+2022-03-09 11:54:46,944 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: poll_exit
+2022-03-09 11:54:46,944 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: poll_exit
+2022-03-09 11:54:47,055 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: poll_exit
+2022-03-09 11:54:47,056 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: poll_exit
+2022-03-09 11:54:47,153 INFO    Thread-19 :26020 [upload_job.py:push():137] Uploaded file C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\wandb-summary.json
+2022-03-09 11:54:47,154 INFO    Thread-16 :26020 [upload_job.py:push():137] Uploaded file C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\config.yaml
+2022-03-09 11:54:47,159 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: poll_exit
+2022-03-09 11:54:47,159 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: poll_exit
+2022-03-09 11:54:47,213 INFO    Thread-18 :26020 [upload_job.py:push():137] Uploaded file C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\requirements.txt
+2022-03-09 11:54:47,268 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: poll_exit
+2022-03-09 11:54:47,269 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: poll_exit
+2022-03-09 11:54:47,316 INFO    Thread-17 :26020 [upload_job.py:push():137] Uploaded file C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\files\output.log
+2022-03-09 11:54:47,377 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: poll_exit
+2022-03-09 11:54:47,378 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: poll_exit
+2022-03-09 11:54:47,485 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: poll_exit
+2022-03-09 11:54:47,485 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: poll_exit
+2022-03-09 11:54:47,516 INFO    Thread-11 :26020 [sender.py:transition_state():316] send defer: 7
+2022-03-09 11:54:47,517 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: defer
+2022-03-09 11:54:47,517 INFO    HandlerThread:26020 [handler.py:handle_request_defer():143] handle defer: 7
+2022-03-09 11:54:47,517 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: defer
+2022-03-09 11:54:47,518 INFO    SenderThread:26020 [sender.py:send_request_defer():312] handle sender defer: 7
+2022-03-09 11:54:47,593 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: poll_exit
+2022-03-09 11:54:47,698 INFO    SenderThread:26020 [sender.py:transition_state():316] send defer: 8
+2022-03-09 11:54:47,699 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: poll_exit
+2022-03-09 11:54:47,699 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: defer
+2022-03-09 11:54:47,699 INFO    HandlerThread:26020 [handler.py:handle_request_defer():143] handle defer: 8
+2022-03-09 11:54:47,699 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: defer
+2022-03-09 11:54:47,699 INFO    SenderThread:26020 [sender.py:send_request_defer():312] handle sender defer: 8
+2022-03-09 11:54:47,699 INFO    SenderThread:26020 [sender.py:transition_state():316] send defer: 9
+2022-03-09 11:54:47,700 DEBUG   SenderThread:26020 [sender.py:send():182] send: final
+2022-03-09 11:54:47,700 DEBUG   SenderThread:26020 [sender.py:send():182] send: footer
+2022-03-09 11:54:47,700 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: defer
+2022-03-09 11:54:47,700 INFO    HandlerThread:26020 [handler.py:handle_request_defer():143] handle defer: 9
+2022-03-09 11:54:47,700 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: defer
+2022-03-09 11:54:47,700 INFO    SenderThread:26020 [sender.py:send_request_defer():312] handle sender defer: 9
+2022-03-09 11:54:47,812 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: poll_exit
+2022-03-09 11:54:47,812 DEBUG   SenderThread:26020 [sender.py:send_request():196] send_request: poll_exit
+2022-03-09 11:54:47,812 INFO    SenderThread:26020 [file_pusher.py:join():182] waiting for file pusher
+2022-03-09 11:54:47,813 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: get_summary
+2022-03-09 11:54:47,814 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: sampled_history
+2022-03-09 11:54:47,814 DEBUG   HandlerThread:26020 [handler.py:handle_request():126] handle_request: shutdown
+2022-03-09 11:54:47,814 INFO    HandlerThread:26020 [handler.py:finish():683] shutting down handler
+2022-03-09 11:54:48,701 INFO    WriterThread:26020 [datastore.py:close():281] close: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_114259-7lo40ps9\run-7lo40ps9.wandb
+2022-03-09 11:54:48,827 INFO    SenderThread:26020 [sender.py:finish():979] shutting down sender
+2022-03-09 11:54:48,827 INFO    SenderThread:26020 [file_pusher.py:finish():177] shutting down file pusher
+2022-03-09 11:54:48,827 INFO    SenderThread:26020 [file_pusher.py:join():182] waiting for file pusher
+2022-03-09 11:54:48,830 INFO    MainThread:26020 [internal.py:handle_exit():76] Internal process exited

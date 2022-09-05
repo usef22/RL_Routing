@@ -1,0 +1,161 @@
+2022-03-09 13:36:39,302 INFO    MainThread:1184 [internal.py:wandb_internal():89] W&B internal server running at pid: 1184, started at: 2022-03-09 13:36:39.295741
+2022-03-09 13:36:39,304 INFO    WriterThread:1184 [datastore.py:open_for_write():77] open: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_133638-1499nu2q\run-1499nu2q.wandb
+2022-03-09 13:36:39,304 DEBUG   HandlerThread:1184 [handler.py:handle_request():126] handle_request: check_version
+2022-03-09 13:36:39,306 DEBUG   SenderThread:1184 [sender.py:send():182] send: header
+2022-03-09 13:36:39,306 DEBUG   SenderThread:1184 [sender.py:send_request():196] send_request: check_version
+2022-03-09 13:36:39,877 DEBUG   SenderThread:1184 [sender.py:send():182] send: run
+2022-03-09 13:36:39,898 DEBUG   SenderThread:1184 [git.py:repo():33] git repository is invalid
+2022-03-09 13:36:40,049 DEBUG   HandlerThread:1184 [handler.py:handle_request():126] handle_request: run_start
+2022-03-09 13:36:40,051 INFO    SenderThread:1184 [dir_watcher.py:__init__():169] watching files in: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_133638-1499nu2q\files
+2022-03-09 13:36:40,051 INFO    SenderThread:1184 [sender.py:_start_run_threads():743] run started: 1499nu2q with start time 1646861798
+2022-03-09 13:36:40,051 DEBUG   SenderThread:1184 [sender.py:send():182] send: summary
+2022-03-09 13:36:40,052 INFO    SenderThread:1184 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-03-09 13:36:41,053 INFO    Thread-12 :1184 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_133638-1499nu2q\files\wandb-summary.json
+2022-03-09 13:36:41,691 DEBUG   HandlerThread:1184 [meta.py:__init__():40] meta init
+2022-03-09 13:36:41,692 DEBUG   HandlerThread:1184 [meta.py:__init__():54] meta init done
+2022-03-09 13:36:41,692 DEBUG   HandlerThread:1184 [meta.py:probe():211] probe
+2022-03-09 13:36:41,725 DEBUG   HandlerThread:1184 [git.py:repo():33] git repository is invalid
+2022-03-09 13:36:41,725 DEBUG   HandlerThread:1184 [meta.py:_save_pip():58] save pip
+2022-03-09 13:36:41,726 DEBUG   HandlerThread:1184 [meta.py:_save_pip():72] save pip done
+2022-03-09 13:36:41,726 DEBUG   HandlerThread:1184 [meta.py:_save_conda():79] save conda
+2022-03-09 13:36:41,729 ERROR   HandlerThread:1184 [meta.py:_save_conda():86] Error saving conda packages
+Traceback (most recent call last):
+  File "C:\Users\usef2\anaconda3\envs\RL_drone-main\lib\site-packages\wandb\sdk\internal\meta.py", line 84, in _save_conda
+    subprocess.call(["conda", "env", "export"], stdout=f)
+  File "C:\Users\usef2\anaconda3\envs\RL_drone-main\lib\subprocess.py", line 287, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "C:\Users\usef2\anaconda3\envs\RL_drone-main\lib\subprocess.py", line 729, in __init__
+    restore_signals, start_new_session)
+  File "C:\Users\usef2\anaconda3\envs\RL_drone-main\lib\subprocess.py", line 1017, in _execute_child
+    startupinfo)
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2022-03-09 13:36:41,730 DEBUG   HandlerThread:1184 [meta.py:_save_conda():87] save conda done
+2022-03-09 13:36:41,730 DEBUG   HandlerThread:1184 [meta.py:probe():249] probe done
+2022-03-09 13:36:41,734 DEBUG   SenderThread:1184 [sender.py:send():182] send: files
+2022-03-09 13:36:41,734 INFO    SenderThread:1184 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2022-03-09 13:36:41,738 DEBUG   HandlerThread:1184 [handler.py:handle_request():126] handle_request: stop_status
+2022-03-09 13:36:41,739 DEBUG   SenderThread:1184 [sender.py:send_request():196] send_request: stop_status
+2022-03-09 13:36:41,858 DEBUG   SenderThread:1184 [sender.py:send():182] send: config
+2022-03-09 13:36:41,858 DEBUG   SenderThread:1184 [sender.py:send():182] send: config
+2022-03-09 13:36:41,858 DEBUG   SenderThread:1184 [sender.py:send():182] send: config
+2022-03-09 13:36:41,859 DEBUG   SenderThread:1184 [sender.py:send():182] send: config
+2022-03-09 13:36:41,859 DEBUG   SenderThread:1184 [sender.py:send():182] send: config
+2022-03-09 13:36:42,066 INFO    Thread-12 :1184 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_133638-1499nu2q\files\output.log
+2022-03-09 13:36:42,067 INFO    Thread-12 :1184 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_133638-1499nu2q\files\conda-environment.yaml
+2022-03-09 13:36:42,067 INFO    Thread-12 :1184 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_133638-1499nu2q\files\wandb-metadata.json
+2022-03-09 13:36:42,068 INFO    Thread-12 :1184 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_133638-1499nu2q\files\requirements.txt
+2022-03-09 13:36:42,399 INFO    Thread-15 :1184 [upload_job.py:push():137] Uploaded file C:\Users\usef2\AppData\Local\Temp\tmp4s6elv4kwandb\wg8vswau-wandb-metadata.json
+2022-03-09 13:36:42,785 DEBUG   SenderThread:1184 [sender.py:send():182] send: telemetry
+2022-03-09 13:36:42,785 DEBUG   SenderThread:1184 [sender.py:send():182] send: exit
+2022-03-09 13:36:42,785 INFO    SenderThread:1184 [sender.py:send_exit():291] handling exit code: 1
+2022-03-09 13:36:42,785 INFO    SenderThread:1184 [sender.py:send_exit():293] handling runtime: 2
+2022-03-09 13:36:42,785 DEBUG   HandlerThread:1184 [handler.py:handle_request():126] handle_request: poll_exit
+2022-03-09 13:36:42,786 INFO    SenderThread:1184 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-03-09 13:36:42,786 INFO    SenderThread:1184 [sender.py:send_exit():303] send defer
+2022-03-09 13:36:42,786 DEBUG   SenderThread:1184 [sender.py:send_request():196] send_request: poll_exit
+2022-03-09 13:36:42,786 DEBUG   HandlerThread:1184 [handler.py:handle_request():126] handle_request: defer
+2022-03-09 13:36:42,786 INFO    HandlerThread:1184 [handler.py:handle_request_defer():143] handle defer: 0
+2022-03-09 13:36:42,787 DEBUG   SenderThread:1184 [sender.py:send_request():196] send_request: defer
+2022-03-09 13:36:42,787 INFO    SenderThread:1184 [sender.py:send_request_defer():312] handle sender defer: 0
+2022-03-09 13:36:42,787 INFO    SenderThread:1184 [sender.py:transition_state():316] send defer: 1
+2022-03-09 13:36:42,787 DEBUG   HandlerThread:1184 [handler.py:handle_request():126] handle_request: defer
+2022-03-09 13:36:42,787 INFO    HandlerThread:1184 [handler.py:handle_request_defer():143] handle defer: 1
+2022-03-09 13:36:42,824 DEBUG   SenderThread:1184 [sender.py:send_request():196] send_request: defer
+2022-03-09 13:36:42,825 INFO    SenderThread:1184 [sender.py:send_request_defer():312] handle sender defer: 1
+2022-03-09 13:36:42,825 INFO    SenderThread:1184 [sender.py:transition_state():316] send defer: 2
+2022-03-09 13:36:42,825 DEBUG   SenderThread:1184 [sender.py:send():182] send: stats
+2022-03-09 13:36:42,825 DEBUG   HandlerThread:1184 [handler.py:handle_request():126] handle_request: defer
+2022-03-09 13:36:42,826 INFO    HandlerThread:1184 [handler.py:handle_request_defer():143] handle defer: 2
+2022-03-09 13:36:42,826 DEBUG   SenderThread:1184 [sender.py:send_request():196] send_request: defer
+2022-03-09 13:36:42,826 INFO    SenderThread:1184 [sender.py:send_request_defer():312] handle sender defer: 2
+2022-03-09 13:36:42,826 INFO    SenderThread:1184 [sender.py:transition_state():316] send defer: 3
+2022-03-09 13:36:42,826 DEBUG   HandlerThread:1184 [handler.py:handle_request():126] handle_request: defer
+2022-03-09 13:36:42,826 INFO    HandlerThread:1184 [handler.py:handle_request_defer():143] handle defer: 3
+2022-03-09 13:36:42,826 DEBUG   SenderThread:1184 [sender.py:send():182] send: summary
+2022-03-09 13:36:42,827 INFO    SenderThread:1184 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2022-03-09 13:36:42,827 DEBUG   SenderThread:1184 [sender.py:send_request():196] send_request: defer
+2022-03-09 13:36:42,827 INFO    SenderThread:1184 [sender.py:send_request_defer():312] handle sender defer: 3
+2022-03-09 13:36:42,827 INFO    SenderThread:1184 [sender.py:transition_state():316] send defer: 4
+2022-03-09 13:36:42,827 DEBUG   HandlerThread:1184 [handler.py:handle_request():126] handle_request: defer
+2022-03-09 13:36:42,827 INFO    HandlerThread:1184 [handler.py:handle_request_defer():143] handle defer: 4
+2022-03-09 13:36:42,827 DEBUG   SenderThread:1184 [sender.py:send_request():196] send_request: defer
+2022-03-09 13:36:42,827 INFO    SenderThread:1184 [sender.py:send_request_defer():312] handle sender defer: 4
+2022-03-09 13:36:42,892 DEBUG   HandlerThread:1184 [handler.py:handle_request():126] handle_request: poll_exit
+2022-03-09 13:36:42,984 INFO    SenderThread:1184 [sender.py:transition_state():316] send defer: 5
+2022-03-09 13:36:42,984 DEBUG   SenderThread:1184 [sender.py:send_request():196] send_request: poll_exit
+2022-03-09 13:36:42,985 DEBUG   HandlerThread:1184 [handler.py:handle_request():126] handle_request: defer
+2022-03-09 13:36:42,985 INFO    HandlerThread:1184 [handler.py:handle_request_defer():143] handle defer: 5
+2022-03-09 13:36:42,985 DEBUG   SenderThread:1184 [sender.py:send_request():196] send_request: defer
+2022-03-09 13:36:42,985 INFO    SenderThread:1184 [sender.py:send_request_defer():312] handle sender defer: 5
+2022-03-09 13:36:42,985 INFO    SenderThread:1184 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-03-09 13:36:43,078 INFO    SenderThread:1184 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_133638-1499nu2q\files\output.log
+2022-03-09 13:36:43,078 INFO    SenderThread:1184 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_133638-1499nu2q\files\config.yaml
+2022-03-09 13:36:43,078 INFO    SenderThread:1184 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_133638-1499nu2q\files\wandb-summary.json
+2022-03-09 13:36:43,078 INFO    SenderThread:1184 [dir_watcher.py:finish():313] scan: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_133638-1499nu2q\files
+2022-03-09 13:36:43,079 INFO    SenderThread:1184 [dir_watcher.py:finish():327] scan save: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_133638-1499nu2q\files\conda-environment.yaml conda-environment.yaml
+2022-03-09 13:36:43,079 INFO    SenderThread:1184 [dir_watcher.py:finish():327] scan save: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_133638-1499nu2q\files\config.yaml config.yaml
+2022-03-09 13:36:43,079 INFO    SenderThread:1184 [dir_watcher.py:finish():327] scan save: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_133638-1499nu2q\files\output.log output.log
+2022-03-09 13:36:43,080 INFO    SenderThread:1184 [dir_watcher.py:finish():327] scan save: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_133638-1499nu2q\files\requirements.txt requirements.txt
+2022-03-09 13:36:43,083 INFO    SenderThread:1184 [dir_watcher.py:finish():327] scan save: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_133638-1499nu2q\files\wandb-metadata.json wandb-metadata.json
+2022-03-09 13:36:43,083 INFO    SenderThread:1184 [dir_watcher.py:finish():327] scan save: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_133638-1499nu2q\files\wandb-summary.json wandb-summary.json
+2022-03-09 13:36:43,088 INFO    SenderThread:1184 [sender.py:transition_state():316] send defer: 6
+2022-03-09 13:36:43,089 DEBUG   HandlerThread:1184 [handler.py:handle_request():126] handle_request: defer
+2022-03-09 13:36:43,089 INFO    HandlerThread:1184 [handler.py:handle_request_defer():143] handle defer: 6
+2022-03-09 13:36:43,089 DEBUG   SenderThread:1184 [sender.py:send_request():196] send_request: defer
+2022-03-09 13:36:43,089 INFO    SenderThread:1184 [sender.py:send_request_defer():312] handle sender defer: 6
+2022-03-09 13:36:43,089 INFO    SenderThread:1184 [file_pusher.py:finish():177] shutting down file pusher
+2022-03-09 13:36:43,092 DEBUG   HandlerThread:1184 [handler.py:handle_request():126] handle_request: poll_exit
+2022-03-09 13:36:43,093 DEBUG   SenderThread:1184 [sender.py:send_request():196] send_request: poll_exit
+2022-03-09 13:36:43,200 DEBUG   HandlerThread:1184 [handler.py:handle_request():126] handle_request: poll_exit
+2022-03-09 13:36:43,200 DEBUG   SenderThread:1184 [sender.py:send_request():196] send_request: poll_exit
+2022-03-09 13:36:43,306 DEBUG   HandlerThread:1184 [handler.py:handle_request():126] handle_request: poll_exit
+2022-03-09 13:36:43,306 DEBUG   SenderThread:1184 [sender.py:send_request():196] send_request: poll_exit
+2022-03-09 13:36:43,415 DEBUG   HandlerThread:1184 [handler.py:handle_request():126] handle_request: poll_exit
+2022-03-09 13:36:43,415 DEBUG   SenderThread:1184 [sender.py:send_request():196] send_request: poll_exit
+2022-03-09 13:36:43,524 DEBUG   HandlerThread:1184 [handler.py:handle_request():126] handle_request: poll_exit
+2022-03-09 13:36:43,524 DEBUG   SenderThread:1184 [sender.py:send_request():196] send_request: poll_exit
+2022-03-09 13:36:43,634 DEBUG   HandlerThread:1184 [handler.py:handle_request():126] handle_request: poll_exit
+2022-03-09 13:36:43,634 DEBUG   SenderThread:1184 [sender.py:send_request():196] send_request: poll_exit
+2022-03-09 13:36:43,743 DEBUG   HandlerThread:1184 [handler.py:handle_request():126] handle_request: poll_exit
+2022-03-09 13:36:43,743 DEBUG   SenderThread:1184 [sender.py:send_request():196] send_request: poll_exit
+2022-03-09 13:36:43,757 INFO    Thread-17 :1184 [upload_job.py:push():137] Uploaded file C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_133638-1499nu2q\files\output.log
+2022-03-09 13:36:43,760 INFO    Thread-18 :1184 [upload_job.py:push():137] Uploaded file C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_133638-1499nu2q\files\requirements.txt
+2022-03-09 13:36:43,761 INFO    Thread-16 :1184 [upload_job.py:push():137] Uploaded file C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_133638-1499nu2q\files\config.yaml
+2022-03-09 13:36:43,853 DEBUG   HandlerThread:1184 [handler.py:handle_request():126] handle_request: poll_exit
+2022-03-09 13:36:43,853 DEBUG   SenderThread:1184 [sender.py:send_request():196] send_request: poll_exit
+2022-03-09 13:36:43,859 INFO    Thread-19 :1184 [upload_job.py:push():137] Uploaded file C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_133638-1499nu2q\files\wandb-summary.json
+2022-03-09 13:36:43,963 DEBUG   HandlerThread:1184 [handler.py:handle_request():126] handle_request: poll_exit
+2022-03-09 13:36:43,963 DEBUG   SenderThread:1184 [sender.py:send_request():196] send_request: poll_exit
+2022-03-09 13:36:44,071 INFO    Thread-11 :1184 [sender.py:transition_state():316] send defer: 7
+2022-03-09 13:36:44,071 DEBUG   HandlerThread:1184 [handler.py:handle_request():126] handle_request: poll_exit
+2022-03-09 13:36:44,071 DEBUG   HandlerThread:1184 [handler.py:handle_request():126] handle_request: defer
+2022-03-09 13:36:44,071 INFO    HandlerThread:1184 [handler.py:handle_request_defer():143] handle defer: 7
+2022-03-09 13:36:44,071 DEBUG   SenderThread:1184 [sender.py:send_request():196] send_request: poll_exit
+2022-03-09 13:36:44,072 DEBUG   SenderThread:1184 [sender.py:send_request():196] send_request: defer
+2022-03-09 13:36:44,072 INFO    SenderThread:1184 [sender.py:send_request_defer():312] handle sender defer: 7
+2022-03-09 13:36:44,178 DEBUG   HandlerThread:1184 [handler.py:handle_request():126] handle_request: poll_exit
+2022-03-09 13:36:44,240 INFO    SenderThread:1184 [sender.py:transition_state():316] send defer: 8
+2022-03-09 13:36:44,240 DEBUG   SenderThread:1184 [sender.py:send_request():196] send_request: poll_exit
+2022-03-09 13:36:44,240 DEBUG   HandlerThread:1184 [handler.py:handle_request():126] handle_request: defer
+2022-03-09 13:36:44,240 INFO    HandlerThread:1184 [handler.py:handle_request_defer():143] handle defer: 8
+2022-03-09 13:36:44,240 DEBUG   SenderThread:1184 [sender.py:send_request():196] send_request: defer
+2022-03-09 13:36:44,241 INFO    SenderThread:1184 [sender.py:send_request_defer():312] handle sender defer: 8
+2022-03-09 13:36:44,241 INFO    SenderThread:1184 [sender.py:transition_state():316] send defer: 9
+2022-03-09 13:36:44,241 DEBUG   SenderThread:1184 [sender.py:send():182] send: final
+2022-03-09 13:36:44,241 DEBUG   HandlerThread:1184 [handler.py:handle_request():126] handle_request: defer
+2022-03-09 13:36:44,241 INFO    HandlerThread:1184 [handler.py:handle_request_defer():143] handle defer: 9
+2022-03-09 13:36:44,242 DEBUG   SenderThread:1184 [sender.py:send():182] send: footer
+2022-03-09 13:36:44,242 DEBUG   SenderThread:1184 [sender.py:send_request():196] send_request: defer
+2022-03-09 13:36:44,242 INFO    SenderThread:1184 [sender.py:send_request_defer():312] handle sender defer: 9
+2022-03-09 13:36:44,349 DEBUG   HandlerThread:1184 [handler.py:handle_request():126] handle_request: poll_exit
+2022-03-09 13:36:44,349 DEBUG   SenderThread:1184 [sender.py:send_request():196] send_request: poll_exit
+2022-03-09 13:36:44,349 INFO    SenderThread:1184 [file_pusher.py:join():182] waiting for file pusher
+2022-03-09 13:36:44,350 DEBUG   HandlerThread:1184 [handler.py:handle_request():126] handle_request: get_summary
+2022-03-09 13:36:44,351 DEBUG   HandlerThread:1184 [handler.py:handle_request():126] handle_request: sampled_history
+2022-03-09 13:36:44,351 DEBUG   HandlerThread:1184 [handler.py:handle_request():126] handle_request: shutdown
+2022-03-09 13:36:44,351 INFO    HandlerThread:1184 [handler.py:finish():683] shutting down handler
+2022-03-09 13:36:45,251 INFO    WriterThread:1184 [datastore.py:close():281] close: C:\Users\usef2\Documents\USC\ML Delivery\RL_drone-main_traffic\wandb\run-20220309_133638-1499nu2q\run-1499nu2q.wandb
+2022-03-09 13:36:45,358 INFO    SenderThread:1184 [sender.py:finish():979] shutting down sender
+2022-03-09 13:36:45,358 INFO    SenderThread:1184 [file_pusher.py:finish():177] shutting down file pusher
+2022-03-09 13:36:45,358 INFO    SenderThread:1184 [file_pusher.py:join():182] waiting for file pusher
+2022-03-09 13:36:45,360 INFO    MainThread:1184 [internal.py:handle_exit():76] Internal process exited

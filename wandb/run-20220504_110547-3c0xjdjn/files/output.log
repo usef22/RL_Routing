@@ -1,0 +1,20 @@
+___________________________________________________________________________________________________
+{'Destination': 1, 'BW_Block': 4}
+___________________________________________________________________________________________________
+>>>>>>>>>>>>>>>>>>>>>> 9
+7
+[[2070 1607 1013 2529 1793  800  587]
+ [2231 1565 1392 2300 2937 2516 1974]
+ [1750 1201 1473 2535 3095 2391 4086]
+ [2126  790 1108 1931 1612 1003 4398]
+ [1939  536  670 1118 1283  822 3921]
+ [2966 1512 1704 1811 1939 1667 4611]
+ [3700 2665 2503 3366 2387 1378 2548]]
+Traceback (most recent call last):
+  File "C:/Users/usef2/Documents/USC/ML Delivery/RL_drone-main_traffic/Train_wandb.py", line 224, in <module>
+    model = DQN(MlpPolicy, env, verbose=1)
+  File "C:\Users\usef2\anaconda3\envs\RL_drone-main\lib\site-packages\stable_baselines\deepq\dqn.py", line 103, in __init__
+    self.setup_model()
+  File "C:\Users\usef2\anaconda3\envs\RL_drone-main\lib\site-packages\stable_baselines\deepq\dqn.py", line 121, in setup_model
+    assert issubclass(test_policy, DQNPolicy), "Error: the input policy for the DQN model must be " \
+AssertionError: Error: the input policy for the DQN model must be an instance of DQNPolicy.

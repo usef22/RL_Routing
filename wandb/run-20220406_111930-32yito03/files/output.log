@@ -1,0 +1,59 @@
+___________________________________________________________________________________________________
+{'Destination': 1, 'BW_Block': 5}
+___________________________________________________________________________________________________
+>>>>>>>>>>>>>>>>>>>>>> 9
+7
+[[2070 1607 1013 2529 1793  800  587]
+ [2231 1565 1392 2300 2937 2516 1974]
+ [1750 1201 1473 2535 3095 2391 4086]
+ [2126  790 1108 1931 1612 1003 4398]
+ [1939  536  670 1118 1283  822 3921]
+ [2966 1512 1704 1811 1939 1667 4611]
+ [3700 2665 2503 3366 2387 1378 2548]]
+Wrapping the env in a DummyVecEnv.
+--------------------------------------
+| approxkl           | 0.00030741194 |
+| clipfrac           | 0.0           |
+| ep_len_mean        | 68            |
+| ep_reward_mean     | -9            |
+| explained_variance | 0.000732      |
+| fps                | 280           |
+| n_updates          | 1             |
+| policy_entropy     | 1.0983864     |
+| policy_loss        | -0.0030949912 |
+| serial_timesteps   | 128           |
+| time_elapsed       | 0             |
+| total_timesteps    | 128           |
+| value_loss         | 1858.1676     |
+--------------------------------------
+--------------------------------------
+| approxkl           | 5.102304e-05  |
+| clipfrac           | 0.0           |
+| ep_len_mean        | 68            |
+| ep_reward_mean     | -9            |
+| explained_variance | -0.00244      |
+| fps                | 421           |
+| n_updates          | 2             |
+| policy_entropy     | 1.097533      |
+| policy_loss        | -0.0003821717 |
+| serial_timesteps   | 256           |
+| time_elapsed       | 0.457         |
+| total_timesteps    | 256           |
+| value_loss         | 737.41693     |
+--------------------------------------
+--------------------------------------
+| approxkl           | 0.0005530506  |
+| clipfrac           | 0.0           |
+| ep_len_mean        | 68            |
+| ep_reward_mean     | -9            |
+| explained_variance | -0.00181      |
+| fps                | 544           |
+| n_updates          | 3             |
+| policy_entropy     | 1.0979841     |
+| policy_loss        | -0.0033825538 |
+| serial_timesteps   | 384           |
+| time_elapsed       | 0.761         |
+| total_timesteps    | 384           |
+| value_loss         | 1368.4711     |
+--------------------------------------
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x0000024535EB3D30>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x0000024535EB3D30>>: AttributeError: module 'gast' has no attribute 'Index'

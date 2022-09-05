@@ -1,0 +1,402 @@
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x00000236D012EC88>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x00000236D012EC88>>: AttributeError: module 'gast' has no attribute 'Index'
+WARNING:tensorflow:Entity <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x00000236D05968D0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Flatten.call of <tensorflow.python.layers.core.Flatten object at 0x00000236D05968D0>>: AttributeError: module 'gast' has no attribute 'Index'
+___________________________________________________________________________________________________
+{'Destination': 1, 'BW_Block': 5}
+___________________________________________________________________________________________________
+>>>>>>>>>>>>>>>>>>>>>> 9
+7
+[[2070 1607 1013 2529 1793  800  587]
+ [2231 1565 1392 2300 2937 2516 1974]
+ [1750 1201 1473 2535 3095 2391 4086]
+ [2126  790 1108 1931 1612 1003 4398]
+ [1939  536  670 1118 1283  822 3921]
+ [2966 1512 1704 1811 1939 1667 4611]
+ [3700 2665 2503 3366 2387 1378 2548]]
+Wrapping the env in a DummyVecEnv.
+---------------------------------
+| explained_variance | -0.429   |
+| fps                | 31       |
+| nupdates           | 1        |
+| policy_entropy     | 1.1      |
+| total_timesteps    | 5        |
+| value_loss         | 11       |
+---------------------------------
+---------------------------------
+| explained_variance | -0.203   |
+| fps                | 410      |
+| nupdates           | 100      |
+| policy_entropy     | 1.1      |
+| total_timesteps    | 500      |
+| value_loss         | 8.96     |
+---------------------------------
+308.0
+308.0
+490.0
+490.0
+Saving new best model to results\NovelGridworld-v0\NovelGridworld-v0_300000_CUMULATIVE_50_200_best_model
+---------------------------------
+| ep_len_mean        | 490      |
+| ep_reward_mean     | -212     |
+| explained_variance | -0.168   |
+| fps                | 435      |
+| nupdates           | 200      |
+| policy_entropy     | 1.1      |
+| total_timesteps    | 1000     |
+| value_loss         | 12.7     |
+---------------------------------
+---------------------------------
+| ep_len_mean        | 447      |
+| ep_reward_mean     | -144     |
+| explained_variance | -0.151   |
+| fps                | 447      |
+| nupdates           | 300      |
+| policy_entropy     | 1.1      |
+| total_timesteps    | 1500     |
+| value_loss         | 11.4     |
+---------------------------------
+239.0
+239.0
+330.3333333333333
+276.5
+Saving new best model to results\NovelGridworld-v0\NovelGridworld-v0_300000_CUMULATIVE_50_200_best_model
+---------------------------------
+| ep_len_mean        | 330      |
+| ep_reward_mean     | -35.8    |
+| explained_variance | -0.228   |
+| fps                | 453      |
+| nupdates           | 400      |
+| policy_entropy     | 1.1      |
+| total_timesteps    | 2000     |
+| value_loss         | 11.6     |
+---------------------------------
+---------------------------------
+| ep_len_mean        | 272      |
+| ep_reward_mean     | 20       |
+| explained_variance | -0.118   |
+| fps                | 452      |
+| nupdates           | 500      |
+| policy_entropy     | 1.1      |
+| total_timesteps    | 2500     |
+| value_loss         | 13.6     |
+---------------------------------
+84.0
+84.0
+252.9
+242.0
+Saving new best model to results\NovelGridworld-v0\NovelGridworld-v0_300000_CUMULATIVE_50_200_best_model
+---------------------------------
+| ep_len_mean        | 253      |
+| ep_reward_mean     | 34.8     |
+| explained_variance | -0.0149  |
+| fps                | 448      |
+| nupdates           | 600      |
+| policy_entropy     | 1.09     |
+| total_timesteps    | 3000     |
+| value_loss         | 7.83     |
+---------------------------------
+---------------------------------
+| ep_len_mean        | 248      |
+| ep_reward_mean     | 36.9     |
+| explained_variance | -0.0427  |
+| fps                | 438      |
+| nupdates           | 700      |
+| policy_entropy     | 1.1      |
+| total_timesteps    | 3500     |
+| value_loss         | 8.97     |
+---------------------------------
+434.0
+434.0
+260.3333333333333
+183.5
+---------------------------------
+| ep_len_mean        | 260      |
+| ep_reward_mean     | 25.7     |
+| explained_variance | -0.013   |
+| fps                | 435      |
+| nupdates           | 800      |
+| policy_entropy     | 1.09     |
+| total_timesteps    | 4000     |
+| value_loss         | 7.72     |
+---------------------------------
+---------------------------------
+| ep_len_mean        | 259      |
+| ep_reward_mean     | 32.4     |
+| explained_variance | -0.00247 |
+| fps                | 437      |
+| nupdates           | 900      |
+| policy_entropy     | 1.09     |
+| total_timesteps    | 4500     |
+| value_loss         | 7.21     |
+---------------------------------
+90.0
+90.0
+249.55
+250.0
+Saving new best model to results\NovelGridworld-v0\NovelGridworld-v0_300000_CUMULATIVE_50_200_best_model
+---------------------------------
+| ep_len_mean        | 250      |
+| ep_reward_mean     | 40.7     |
+| explained_variance | 0.0617   |
+| fps                | 432      |
+| nupdates           | 1000     |
+| policy_entropy     | 1.06     |
+| total_timesteps    | 5000     |
+| value_loss         | 6.4      |
+---------------------------------
+---------------------------------
+| ep_len_mean        | 242      |
+| ep_reward_mean     | 45.2     |
+| explained_variance | 0.00729  |
+| fps                | 429      |
+| nupdates           | 1100     |
+| policy_entropy     | 1.06     |
+| total_timesteps    | 5500     |
+| value_loss         | 5.73     |
+---------------------------------
+464.0
+464.0
+251.2608695652174
+228.0
+----------------------------------
+| ep_len_mean        | 251       |
+| ep_reward_mean     | 40.7      |
+| explained_variance | -0.000961 |
+| fps                | 433       |
+| nupdates           | 1200      |
+| policy_entropy     | 0.992     |
+| total_timesteps    | 6000      |
+| value_loss         | 5.04      |
+----------------------------------
+---------------------------------
+| ep_len_mean        | 254      |
+| ep_reward_mean     | 35.9     |
+| explained_variance | 0.0229   |
+| fps                | 437      |
+| nupdates           | 1300     |
+| policy_entropy     | 1        |
+| total_timesteps    | 6500     |
+| value_loss         | 4.44     |
+---------------------------------
+122.0
+122.0
+255.19230769230768
+228.0
+----------------------------------
+| ep_len_mean        | 255       |
+| ep_reward_mean     | 38        |
+| explained_variance | -0.000586 |
+| fps                | 439       |
+| nupdates           | 1400      |
+| policy_entropy     | 1.05      |
+| total_timesteps    | 7000      |
+| value_loss         | 3.9       |
+----------------------------------
+---------------------------------
+| ep_len_mean        | 246      |
+| ep_reward_mean     | 48       |
+| explained_variance | 0.000392 |
+| fps                | 441      |
+| nupdates           | 1500     |
+| policy_entropy     | 1.06     |
+| total_timesteps    | 7500     |
+| value_loss         | 3.43     |
+---------------------------------
+69.0
+69.0
+238.1818181818182
+123.0
+Saving new best model to results\NovelGridworld-v0\NovelGridworld-v0_300000_CUMULATIVE_50_200_best_model
+---------------------------------
+| ep_len_mean        | 238      |
+| ep_reward_mean     | 54       |
+| explained_variance | 1.85e-05 |
+| fps                | 443      |
+| nupdates           | 1600     |
+| policy_entropy     | 1.05     |
+| total_timesteps    | 8000     |
+| value_loss         | 2.99     |
+---------------------------------
+---------------------------------
+| ep_len_mean        | 244      |
+| ep_reward_mean     | 48.6     |
+| explained_variance | 3.58e-07 |
+| fps                | 445      |
+| nupdates           | 1700     |
+| policy_entropy     | 1.04     |
+| total_timesteps    | 8500     |
+| value_loss         | 2.53     |
+---------------------------------
+50.0
+50.0
+236.47368421052633
+116.0
+Saving new best model to results\NovelGridworld-v0\NovelGridworld-v0_300000_CUMULATIVE_50_200_best_model
+---------------------------------
+| ep_len_mean        | 236      |
+| ep_reward_mean     | 57.1     |
+| explained_variance | -0.00682 |
+| fps                | 446      |
+| nupdates           | 1800     |
+| policy_entropy     | 0.953    |
+| total_timesteps    | 9000     |
+| value_loss         | 2.16     |
+---------------------------------
+---------------------------------
+| ep_len_mean        | 226      |
+| ep_reward_mean     | 68.9     |
+| explained_variance | 0.0454   |
+| fps                | 448      |
+| nupdates           | 1900     |
+| policy_entropy     | 0.896    |
+| total_timesteps    | 9500     |
+| value_loss         | 1.74     |
+---------------------------------
+83.0
+83.0
+199.46
+74.5
+Saving new best model to results\NovelGridworld-v0\NovelGridworld-v0_300000_CUMULATIVE_50_200_best_model
+---------------------------------
+| ep_len_mean        | 199      |
+| ep_reward_mean     | 93.3     |
+| explained_variance | 0.0298   |
+| fps                | 449      |
+| nupdates           | 2000     |
+| policy_entropy     | 0.734    |
+| total_timesteps    | 10000    |
+| value_loss         | 2.39e+03 |
+---------------------------------
+---------------------------------
+| ep_len_mean        | 178      |
+| ep_reward_mean     | 119      |
+| explained_variance | 0        |
+| fps                | 450      |
+| nupdates           | 2100     |
+| policy_entropy     | 0.729    |
+| total_timesteps    | 10500    |
+| value_loss         | 1.43     |
+---------------------------------
+8.0
+8.0
+148.3108108108108
+20.0
+Saving new best model to results\NovelGridworld-v0\NovelGridworld-v0_300000_CUMULATIVE_50_200_best_model
+---------------------------------
+| ep_len_mean        | 148      |
+| ep_reward_mean     | 142      |
+| explained_variance | -0.026   |
+| fps                | 450      |
+| nupdates           | 2200     |
+| policy_entropy     | 0.63     |
+| total_timesteps    | 11000    |
+| value_loss         | 1.32     |
+---------------------------------
+---------------------------------
+| ep_len_mean        | 129      |
+| ep_reward_mean     | 161      |
+| explained_variance | 0.00259  |
+| fps                | 450      |
+| nupdates           | 2300     |
+| policy_entropy     | 0.639    |
+| total_timesteps    | 11500    |
+| value_loss         | 2.4e+03  |
+---------------------------------
+12.0
+12.0
+113.08
+41.5
+Saving new best model to results\NovelGridworld-v0\NovelGridworld-v0_300000_CUMULATIVE_50_200_best_model
+---------------------------------
+| ep_len_mean        | 113      |
+| ep_reward_mean     | 178      |
+| explained_variance | 0.00109  |
+| fps                | 449      |
+| nupdates           | 2400     |
+| policy_entropy     | 0.732    |
+| total_timesteps    | 12000    |
+| value_loss         | 1.09     |
+---------------------------------
+----------------------------------
+| ep_len_mean        | 78.2      |
+| ep_reward_mean     | 214       |
+| explained_variance | -2.67e-05 |
+| fps                | 450       |
+| nupdates           | 2500      |
+| policy_entropy     | 0.509     |
+| total_timesteps    | 12500     |
+| value_loss         | 2.86e+04  |
+----------------------------------
+26.0
+26.0
+51.36
+26.0
+Saving new best model to results\NovelGridworld-v0\NovelGridworld-v0_300000_CUMULATIVE_50_200_best_model
+----------------------------------
+| ep_len_mean        | 51.4      |
+| ep_reward_mean     | 240       |
+| explained_variance | -5.64e-05 |
+| fps                | 449       |
+| nupdates           | 2600      |
+| policy_entropy     | 0.583     |
+| total_timesteps    | 13000     |
+| value_loss         | 1.46e+04  |
+----------------------------------
+----------------------------------
+| ep_len_mean        | 40.8      |
+| ep_reward_mean     | 251       |
+| explained_variance | -3.58e-07 |
+| fps                | 449       |
+| nupdates           | 2700      |
+| policy_entropy     | 0.724     |
+| total_timesteps    | 13500     |
+| value_loss         | 0.827     |
+----------------------------------
+67.0
+67.0
+41.2
+58.5
+Saving new best model to results\NovelGridworld-v0\NovelGridworld-v0_300000_CUMULATIVE_50_200_best_model
+---------------------------------
+| ep_len_mean        | 41.2     |
+| ep_reward_mean     | 252      |
+| explained_variance | -0.0441  |
+| fps                | 447      |
+| nupdates           | 2800     |
+| policy_entropy     | 0.309    |
+| total_timesteps    | 14000    |
+| value_loss         | 0.736    |
+---------------------------------
+----------------------------------
+| ep_len_mean        | 36.7      |
+| ep_reward_mean     | 256       |
+| explained_variance | -8.38e-05 |
+| fps                | 445       |
+| nupdates           | 2900      |
+| policy_entropy     | 0.366     |
+| total_timesteps    | 14500     |
+| value_loss         | 2.99e+04  |
+----------------------------------
+143.0
+143.0
+39.02
+28.0
+Saving new best model to results\NovelGridworld-v0\NovelGridworld-v0_300000_CUMULATIVE_50_200_best_model
+---------------------------------
+| ep_len_mean        | 39       |
+| ep_reward_mean     | 256      |
+| explained_variance | 0.00075  |
+| fps                | 442      |
+| nupdates           | 3000     |
+| policy_entropy     | 0.299    |
+| total_timesteps    | 15000    |
+| value_loss         | 1.47e+03 |
+---------------------------------
+----------------------------------
+| ep_len_mean        | 39.9      |
+| ep_reward_mean     | 255       |
+| explained_variance | -0.000297 |
+| fps                | 444       |
+| nupdates           | 3100      |
+| policy_entropy     | 0.293     |
+| total_timesteps    | 15500     |
+| value_loss         | 4.56e+04  |
