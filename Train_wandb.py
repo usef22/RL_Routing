@@ -14,9 +14,7 @@ import numpy as np
 
 from stable_baselines.common.env_checker import check_env
 
-from stable_baselines import PPO2
-from stable_baselines import DQN
-from stable_baselines import A2C
+from stable_baselines import PPO2, A2C, DQN
 from stable_baselines.gail import ExpertDataset
 
 from stable_baselines.deepq.policies import MlpPolicy, CnnPolicy
